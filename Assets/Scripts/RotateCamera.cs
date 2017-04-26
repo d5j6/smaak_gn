@@ -1,20 +1,39 @@
-﻿using System.Collections;
+﻿using NodeCanvas.DialogueTrees;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 //Loosly based upon: http://answers.unity3d.com/questions/805630/how-can-%C4%B1-rotate-camera-with-touch.html
 public class RotateCamera : MonoBehaviour
 {
-    private Vector3 m_StartPoint;
+    private bool m_IsEnabled = true;
     private bool m_IsMoving = false;
+
+    private Vector3 m_StartPoint;
 
     private float m_XAngle = 0.0f;
     private float m_YAngle = 0.0f;
     private float m_XAngleTemp = 0.0f;
     private float m_YAngleTemp = 0.0f;
     
+    private void Start()
+    {
+        DialogueTree.OnDialogueStarted += OnDialogueStarted;
+        DialogueTree.OnDialogueFinished += OnDialogueFinished;
+
+    }
+
+    private void OnDestroy()
+    {
+        DialogueTree.OnDialogueStarted -= OnDialogueStarted;
+        DialogueTree.OnDialogueFinished -= OnDialogueFinished;
+    }
+
     private void Update()
     {
+        if (!m_IsEnabled)
+            return;
+
         //Initialization our angles of camera
         Vector3 eulerAngles = this.transform.rotation.eulerAngles;
         m_XAngle = eulerAngles.y;
@@ -112,5 +131,26 @@ public class RotateCamera : MonoBehaviour
     private void StopMoving()
     {
         m_IsMoving = false;
+    }
+
+    private void Enable()
+    {
+        m_IsEnabled = true;
+    }
+
+    private void Disable()
+    {
+        m_IsEnabled = false;
+    }
+
+    //Events
+    private void OnDialogueStarted(DialogueTree tree)
+    {
+        Disable();
+    }
+
+    private void OnDialogueFinished(DialogueTree tree)
+    {
+        Enable();
     }
 }

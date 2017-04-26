@@ -13,7 +13,8 @@ namespace Slate{
 		public Font overlayTextFont;
 
 		//Constant styling parameters
-		public float cineboxSize = 20f;
+        [Range (0, 0.5f)]
+        public float cineboxSizePercent = 0.1f;
         public float subtitleSize = 18f;
 
 		//EVENT DELEGATES
@@ -84,8 +85,7 @@ namespace Slate{
 			overlayTextStyle.richText = true;
 			overlayTextStyle.font = overlayTextFont;
 
-
-			if (OnGUIEnable != null){
+            if (OnGUIEnable != null){
 				OnGUIEnable();
 			}
 		}
@@ -241,7 +241,10 @@ namespace Slate{
 		
 		///Letterbox
 		void DoLetterbox(){
-			var a = new Rect(0, 0, Screen.width, cineboxSize);
+
+            float cineboxSize = cineboxSizePercent * Screen.height;
+
+            var a = new Rect(0, 0, Screen.width, cineboxSize);
 			var b = new Rect(0, 0, Screen.width, cineboxSize);
 			
 			var lerp = Easing.Ease(EaseType.QuadraticInOut, 0, 1, letterboxCompletion);
