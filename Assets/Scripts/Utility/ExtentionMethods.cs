@@ -6,6 +6,9 @@ using UnityEngine;
 
 public class ExtentionMethods
 {
+    public static string ROW_SEPARATOR = ";|;";
+    public static string COLUMN_SEPARATOR = ";-;";
+
     public static string[,] ParseCSV(string filename)
     {
         string fileText = "";
@@ -23,14 +26,14 @@ public class ExtentionMethods
         string[,] result = new string[0, 0];
 
         //Split the text in rows
-        string[] srcRows = fileText.Split(new char[] { '\r', '\n' });
+        string[] srcRows = fileText.Split(new string[] { ROW_SEPARATOR }, StringSplitOptions.None); //new char[] { '\r', '\n' }
         List<string> rows = new List<string>(srcRows);
         rows.RemoveAll(rowName => rowName == "");
 
         //Split the rows in colmuns
         for (int y = 0; y < rows.Count; ++y)
         {
-            string[] srcColumns = rows[y].Split(new char[] { ';' });
+            string[] srcColumns = rows[y].Split(new string[] { COLUMN_SEPARATOR }, StringSplitOptions.None); //new char[] { ';' }
 
             //Create new 2 dimensional array if required (we only now know the size)
             if (result.Length == 0)
