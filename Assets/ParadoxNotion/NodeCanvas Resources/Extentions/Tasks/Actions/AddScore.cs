@@ -14,7 +14,7 @@ namespace NodeCanvas.Tasks.Flavour
 
         protected override string info
         {
-            get { return ScoreManager.Instance.GetScores(Key.value); }
+            get { return ScoreManager.Instance.GetScoresText(Key.value); }
         }
 
         protected override void OnExecute()
