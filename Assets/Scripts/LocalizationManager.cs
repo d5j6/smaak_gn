@@ -1,16 +1,26 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.IO;
+﻿using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 
-public static class LocalizationManagerMenuItem
+public static class GreenbergNielsenMenuItem
 {
-    [MenuItem("Greenberg Nielsen/Parse Localization Database")]
+    [MenuItem("Greenberg Nielsen/Parsing/Parse All")]
+    public static void ParseAllDatabases()
+    {
+        ParseLocalizationDatabase();
+        ParseScoreDatabase();
+    }
+
+    [MenuItem("Greenberg Nielsen/Parsing/Parse Localization Database")]
     public static void ParseLocalizationDatabase()
     {
         LocalizationManager.Instance.Initialize();
+    }
+
+    [MenuItem("Greenberg Nielsen/Parsing/Parse Score Database")]
+    public static void ParseScoreDatabase()
+    {
+        ScoreManager.Instance.Initialize();
     }
 
     [MenuItem("Greenberg Nielsen/Language/Dutch")]
@@ -78,7 +88,13 @@ public class LocalizationManager : Singleton<LocalizationManager>
     {
         //Initialization check
         if (m_Data == null || m_IsInitialized == false)
-            return "DATA NOT READ: Please parse the database first.";
+        {
+            #if UNITY_EDITOR
+                Initialize();
+            #else
+                return "DATA NOT READ: Please parse the database first.";
+            #endif
+        }
 
         //Key check
         if (key == "")
@@ -113,7 +129,7 @@ public class LocalizationManager : Singleton<LocalizationManager>
 
     private bool Deserialize()
     {
-        string[,] parsedFile = ParseCSV(m_Filepath);
+        string[,] parsedFile = ExtentionMethods.ParseCSV(m_Filepath);
 
         if (parsedFile == null)
             return false;
@@ -144,51 +160,5 @@ public class LocalizationManager : Singleton<LocalizationManager>
         m_NumberOfLanguages = parsedFile.GetLength(1) - 1;
         Debug.Log("Localisation database parsed!");
         return true;
-    }
-
-    private string[,] ParseCSV(string filename)
-    {
-        string fileText = "";
-        try
-        {
-            fileText = File.ReadAllText(filename);
-        }
-        catch (Exception e)
-        {
-            //The file was not found, but that shouldn't crash the game!
-            Debug.LogError(e.Message);
-            return null;
-        }
-
-        string[,] result = new string[0, 0];
-
-        //Split the text in rows
-        string[] srcRows = fileText.Split(new char[] { '\r', '\n' });
-        List<string> rows = new List<string>(srcRows);
-        rows.RemoveAll(rowName => rowName == "");
-
-        //Split the rows in colmuns
-        for (int y = 0; y < rows.Count; ++y)
-        {
-            string[] srcColumns = rows[y].Split(new char[] { ';' });
-
-            //Create new 2 dimensional array if required (we only now know the size)
-            if (result.Length == 0)
-                result = new string[srcColumns.Length, rows.Count];
-
-            for (int x = 0; x < srcColumns.Length; ++x)
-            {
-                //Pretty much impossible, just an extra safety net
-                if (x >= result.GetLength(0))
-                {
-                    Debug.LogWarning("Row consists of more columns than the first row of the table! Source: " + rows[y]);
-                    return null;
-                }
-
-                result[x, y] = srcColumns[x];
-            }
-        }
-
-        return result;
     }
 }

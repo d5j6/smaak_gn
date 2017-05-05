@@ -6,15 +6,18 @@ namespace NodeCanvas.Tasks.Flavour
 {
     [Category("Greenberg Nielsen")]
     [Icon("Flavour")]
-    [Description("Add score")]
-    public class AddScore : ActionTask
+    [Description("Add score raw")]
+    public class AddScoreRaw : ActionTask
     {
         [RequiredField]
-        public BBParameter<string> Key;
+        public BBParameter<ScoreManager.ScoreType> ScoreType; //No m_ as NodeCanvas doesn't filter it out as the unity inspector does :(
+
+        [RequiredField]
+        public BBParameter<int> Value;
 
         protected override string info
         {
-            get { return ScoreManager.Instance.GetScores(Key.value); }
+            get { return "Add a " + ScoreType.value.ToString() + " score of " + Value.value; }
         }
 
         protected override void OnExecute()
@@ -27,7 +30,7 @@ namespace NodeCanvas.Tasks.Flavour
             }
             else
             {
-                scoreManager.AddScore(Key.value);
+                scoreManager.AddScore(ScoreType.value, Value.value);
             }
 
             EndAction();
