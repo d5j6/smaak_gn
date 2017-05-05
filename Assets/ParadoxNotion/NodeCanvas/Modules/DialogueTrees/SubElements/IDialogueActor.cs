@@ -21,11 +21,11 @@ namespace NodeCanvas.DialogueTrees {
     [System.Serializable]
 	public class ProxyDialogueActor : IDialogueActor {
 		
-		private string _name;
+		private string _nameKey;
 		private Transform _transform;
 		
 		public string name{
-			get {return _name;}
+			get {return LocalizationManager.Instance.GetText(_nameKey);}
 		}
 
 		public Texture2D portrait{
@@ -49,7 +49,7 @@ namespace NodeCanvas.DialogueTrees {
 		}
 
 		public ProxyDialogueActor(string name, Transform transform){
-			this._name = name;
+			this._nameKey = name;
 			this._transform = transform;
 		}
 	}

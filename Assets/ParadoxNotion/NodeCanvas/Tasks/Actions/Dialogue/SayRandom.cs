@@ -31,14 +31,14 @@ namespace NodeCanvas.Tasks.Actions{
 		protected override void OnTaskInspectorGUI(){
 
 			if (GUILayout.Button("Add Statement")){
-				statements.Add(new Statement(""));
+				statements.Add(new Statement());
 			}
 
 			foreach (var statement in statements.ToArray()){
 				GUILayout.BeginHorizontal();
 				GUILayout.BeginVertical();
 				EditorUtils.Separator();
-				statement.text = UnityEditor.EditorGUILayout.TextArea(statement.text, (GUIStyle)"textField", GUILayout.Height(50));
+				statement.textKey = UnityEditor.EditorGUILayout.TextArea(statement.textKey, (GUIStyle)"textField", GUILayout.Height(50));
 				statement.audio = (AudioClip)UnityEditor.EditorGUILayout.ObjectField("Audio Clip", statement.audio, typeof(AudioClip), false);
 				statement.meta = UnityEditor.EditorGUILayout.TextField("Meta", statement.meta);
 				GUILayout.EndVertical();

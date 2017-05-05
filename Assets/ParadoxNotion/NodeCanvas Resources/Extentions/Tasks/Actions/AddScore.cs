@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace NodeCanvas.Tasks.Flavour
 {
-    [Category("Flavour")]
+    [Category("Greenberg Nielsen")]
     [Icon("Flavour")]
     [Description("Add score")]
     public class AddScore : ActionTask

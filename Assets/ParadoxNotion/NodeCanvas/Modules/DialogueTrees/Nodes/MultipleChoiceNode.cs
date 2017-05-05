@@ -150,7 +150,7 @@ namespace NodeCanvas.DialogueTrees{
 			var e = Event.current;
 
 			if (GUILayout.Button("Add Choice")){
-				availableChoices.Add(new Choice(new Statement("I am a choice")));
+				availableChoices.Add(new Choice(new Statement()));
 			}
 
 			if (availableChoices.Count == 0){
@@ -188,7 +188,7 @@ namespace NodeCanvas.DialogueTrees{
 				GUILayout.Space(10);
 				GUILayout.BeginVertical("box");
 
-				choice.statement.text = UnityEditor.EditorGUILayout.TextField(choice.statement.text);
+				choice.statement.textKey = UnityEditor.EditorGUILayout.TextField(choice.statement.textKey);
 				choice.statement.audio = UnityEditor.EditorGUILayout.ObjectField("Audio File", choice.statement.audio, typeof(AudioClip), false) as AudioClip;
 				choice.statement.meta = UnityEditor.EditorGUILayout.TextField("Meta Data", choice.statement.meta);
 

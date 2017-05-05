@@ -10,7 +10,7 @@ namespace NodeCanvas.DialogueTrees{
     public class DialogueActor : MonoBehaviour, IDialogueActor {
 
     	[SerializeField]
-    	protected string _name;
+    	protected string _nameKey;
     	[SerializeField]
     	protected Texture2D _portrait;
     	[SerializeField]
@@ -21,7 +21,7 @@ namespace NodeCanvas.DialogueTrees{
     	private Sprite _portraitSprite;
 
 		new public string name{
-			get {return _name;}
+			get {return LocalizationManager.Instance.GetText(_nameKey);}
 		}
 
 		public Texture2D portrait{
@@ -54,7 +54,7 @@ namespace NodeCanvas.DialogueTrees{
 		#if UNITY_EDITOR
 
 		void Reset(){
-			_name = gameObject.name;
+			_nameKey = gameObject.name;
 		}
 			
 		void OnDrawGizmos(){

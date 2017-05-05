@@ -6,7 +6,8 @@ namespace NodeCanvas.DialogueTrees{
 
 	///An interface to use for whats being said by a dialogue actor
 	public interface IStatement{
-		string text{get;}
+		string textKey{get;}
+        string text{get;}
 		AudioClip audio{get;}
 		string meta{get;}
 	}
@@ -16,18 +17,31 @@ namespace NodeCanvas.DialogueTrees{
 	public class Statement : IStatement{
 
 		[SerializeField]
-		private string _text = string.Empty;
+		private string _textKey = string.Empty;
+        private string _replacedText = string.Empty;
 		[SerializeField]
 		private AudioClip _audio;
 		[SerializeField]
 		private string _meta = string.Empty;
 
-		public string text{
-			get {return _text;}
-			set {_text = value;}
+		public string textKey
+        {
+			get { return _textKey; }
+			set { _textKey = value; }
 		}
 
-		public AudioClip audio{
+        public string text
+        {
+            get
+            {
+                if (_replacedText == string.Empty)
+                    return LocalizationManager.Instance.GetText(_textKey);
+                else
+                    return _replacedText; //For when some paramters have been blackboard replaced.
+            }
+        }
+
+        public AudioClip audio{
 			get {return _audio;}
 			set {_audio = value;}
 		}
@@ -39,23 +53,31 @@ namespace NodeCanvas.DialogueTrees{
 
 		//required
 		public Statement(){}
-		public Statement(string text){
-			this.text = text;
+		public Statement(string textKey){
+			this.textKey = textKey;
 		}
 
-		public Statement(string text, AudioClip audio){
-			this.text = text;
+		public Statement(string textKey, AudioClip audio){
+			this.textKey = textKey;
 			this.audio = audio;
 		}
 
-		public Statement(string text, AudioClip audio, string meta){
-			this.text = text;
+		public Statement(string textKey, AudioClip audio, string meta){
+			this.textKey = textKey;
 			this.audio = audio;
 			this.meta = meta;
 		}
 
-		///Replace the text of the statement found in brackets, with blackboard variables ToString and returns a Statement copy
-		public Statement BlackboardReplace(IBlackboard bb){
+        public Statement(string textKey, string replacedText, AudioClip audio, string meta)
+        {
+            this.textKey = textKey;
+            this._replacedText = replacedText;
+            this.audio = audio;
+            this.meta = meta;
+        }
+
+        ///Replace the text of the statement found in brackets, with blackboard variables ToString and returns a Statement copy
+        public Statement BlackboardReplace(IBlackboard bb){
 			var s = text;
 			var i = 0;
 			while ( (i = s.IndexOf('[', i)) != -1){
@@ -87,7 +109,7 @@ namespace NodeCanvas.DialogueTrees{
 				i++;
 			}
 
-			return new Statement(s, audio, meta);
+			return new Statement(textKey, s, audio, meta);
 		}
 
 		public override string ToString(){

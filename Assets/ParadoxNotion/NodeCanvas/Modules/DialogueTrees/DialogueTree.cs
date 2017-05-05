@@ -41,8 +41,6 @@ namespace NodeCanvas.DialogueTrees{
 		public class ActorParameter {
 			
 			[SerializeField]
-			private string _keyName;
-			[SerializeField]
 			private string _id;
 			[SerializeField]
 			private UnityEngine.Object _actorObject;
@@ -50,8 +48,13 @@ namespace NodeCanvas.DialogueTrees{
 			private IDialogueActor _actor;
 			
 			public string name{
-				get {return _keyName;}
-				set {_keyName = value;}
+				get
+                {
+                    if (_actor == null)
+                        return "Actor is null";
+
+                    return _actor.name;
+                }
 			}
 
 			public string ID{
@@ -74,11 +77,7 @@ namespace NodeCanvas.DialogueTrees{
 			}
 
 			public ActorParameter(){}
-			public ActorParameter(string name){
-				this.name = name;
-			}
-			public ActorParameter(string name, IDialogueActor actor){
-				this.name = name;
+			public ActorParameter(IDialogueActor actor){
 				this.actor = actor;
 			}
 

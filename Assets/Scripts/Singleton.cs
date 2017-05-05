@@ -12,6 +12,17 @@ public class Singleton<T> : MonoBehaviour where T : Component
             //    Debug.LogError("The singleton " + typeof(T).FullName + " doesn't have an instance yet!");
             //}
 
+            //In order to use this in edit mode
+            if (_instance == null)
+            {
+                _instance = (T)FindObjectOfType(typeof(T));
+                if (_instance == null)
+                    Debug.LogError(typeof(T).ToString() + " could not be found!");
+
+                //if (_instance == null)
+                //    _instance = (new GameObject(typeof(T).ToString()).AddComponent<T>());
+            }
+
             return _instance;
         }
     }
@@ -27,7 +38,7 @@ public class Singleton<T> : MonoBehaviour where T : Component
 
         _instance = this as T;
     }
-
+ 
     protected virtual void OnDestroy()
     {
         if (_instance == this)

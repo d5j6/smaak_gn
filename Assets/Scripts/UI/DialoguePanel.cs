@@ -129,6 +129,7 @@ public class DialoguePanel : MonoBehaviour
     {
         m_SubtitlesGroup.gameObject.SetActive(false);
         m_OptionsGroup.gameObject.SetActive(false);
+
         if (m_CachedButtons != null)
         {
             foreach (Button tempBtn in m_CachedButtons.Keys)
@@ -271,7 +272,6 @@ public class DialoguePanel : MonoBehaviour
 
     private void OnMultipleChoiceRequest(MultipleChoiceRequestInfo info)
     {
-
         m_OptionsGroup.gameObject.SetActive(true);
         float buttonHeight = m_OptionButton.GetComponent<RectTransform>().rect.height;
         m_OptionsGroup.sizeDelta = new Vector2(m_OptionsGroup.sizeDelta.x, (info.options.Values.Count * buttonHeight) + 20);

@@ -9,7 +9,7 @@ namespace NodeCanvas.DialogueTrees{
 	[Description("Make the selected Dialogue Actor talk. You can make the text more dynamic by using variable names in square brackets\ne.g. [myVarName] or [Global/myVarName]")]
 	public class StatementNode : DTNode{
 
-		public Statement statement = new Statement("This is a dialogue text");
+		public Statement statement = new Statement();
 
 		protected override Status OnExecute(Component agent, IBlackboard bb){
 			var tempStatement = statement.BlackboardReplace(bb);
@@ -38,9 +38,12 @@ namespace NodeCanvas.DialogueTrees{
 			var areaStyle = new GUIStyle(GUI.skin.GetStyle("TextArea"));
 			areaStyle.wordWrap = true;
 			
-			GUILayout.Label("Dialogue Text");
-			statement.text = UnityEditor.EditorGUILayout.TextArea(statement.text, areaStyle, GUILayout.Height(100));
-			statement.audio = UnityEditor.EditorGUILayout.ObjectField("Audio File", statement.audio, typeof(AudioClip), false)  as AudioClip;
+			statement.textKey = UnityEditor.EditorGUILayout.TextField("Dialogue Key", statement.textKey);
+
+            GUILayout.Space(10);
+            UnityEditor.EditorGUILayout.LabelField(statement.text, areaStyle, GUILayout.Height(100));
+
+            statement.audio = UnityEditor.EditorGUILayout.ObjectField("Audio File", statement.audio, typeof(AudioClip), false)  as AudioClip;
 			statement.meta = UnityEditor.EditorGUILayout.TextField("Metadata", statement.meta);
 		}
 

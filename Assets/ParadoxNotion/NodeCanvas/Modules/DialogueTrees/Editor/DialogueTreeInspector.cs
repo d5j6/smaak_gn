@@ -32,12 +32,12 @@ namespace NodeCanvas.Editor{
 		//static because it's also used from DialogueTreeController
 		public static void ShowActorParameters(DialogueTree dialogue){
             EditorUtils.TitledSeparator("Dialogue Actor Parameters");
-			EditorGUILayout.HelpBox("Enter the Key-Value pair for Dialogue Actors involved in the Dialogue.\nReferencing a DialogueActor is optional.", MessageType.Info);
+			//EditorGUILayout.HelpBox("Enter the Key-Value pair for Dialogue Actors involved in the Dialogue.\nReferencing a DialogueActor is optional.", MessageType.Info);
 
 			GUILayout.BeginVertical("box");
 
 			if (GUILayout.Button("Add Actor Parameter")){
-				dialogue.actorParameters.Add(new DialogueTree.ActorParameter("actor parameter name"));
+				dialogue.actorParameters.Add(new DialogueTree.ActorParameter(null));
 			}
 			
 			EditorGUILayout.LabelField("INSTIGATOR <--Replaced by the Actor starting the Dialogue");
@@ -48,7 +48,7 @@ namespace NodeCanvas.Editor{
 				if (dialogue.actorParameters.Where(r => r != reference).Select(r => r.name).Contains(reference.name)){
 					GUI.backgroundColor = Color.red;
 				}
-				reference.name = EditorGUILayout.TextField(reference.name);
+				//reference.name = EditorGUILayout.TextField(reference.name); //STIJN edit: We don't need this anymore
 				GUI.backgroundColor = Color.white;
 				reference.actor = (IDialogueActor)EditorGUILayout.ObjectField(reference.actor as Object, typeof(DialogueActor), true);
 				if (GUILayout.Button("X", GUILayout.Width(18))){

@@ -11,7 +11,7 @@ namespace NodeCanvas.Tasks.Actions{
 	[AgentType(typeof(IDialogueActor))]
 	public class Say : ActionTask {
 
-		public Statement statement = new Statement("This is a dialogue text...");
+		public Statement statement = new Statement();
 
 		protected override string info{
 			get { return string.Format("<i>' {0} '</i>", (statement.text.Length > 30? statement.text.Substring(0, 30) + "..." : statement.text) ); }
@@ -29,7 +29,7 @@ namespace NodeCanvas.Tasks.Actions{
 		#if UNITY_EDITOR
 
 		protected override void OnTaskInspectorGUI(){
-			statement.text = UnityEditor.EditorGUILayout.TextArea(statement.text, (GUIStyle)"textField", GUILayout.Height(100));
+			statement.textKey = UnityEditor.EditorGUILayout.TextArea(statement.textKey, (GUIStyle)"textField", GUILayout.Height(100));
 			statement.audio = (AudioClip)UnityEditor.EditorGUILayout.ObjectField("Audio Clip", statement.audio, typeof(AudioClip), false);
 			statement.meta = UnityEditor.EditorGUILayout.TextField("Meta", statement.meta);
 		}
