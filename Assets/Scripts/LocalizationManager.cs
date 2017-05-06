@@ -1,5 +1,4 @@
-﻿using UnityEditor;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class LocalizationManager : Singleton<LocalizationManager>
 {
@@ -49,7 +48,10 @@ public class LocalizationManager : Singleton<LocalizationManager>
     private bool Deserialize()
     {
         bool success = m_Data.Deserialize(m_Filepath);
-        EditorUtility.SetDirty(m_Data);
+
+        #if UNITY_EDITOR
+            UnityEditor.EditorUtility.SetDirty(m_Data);
+        #endif
 
         return success;
     }

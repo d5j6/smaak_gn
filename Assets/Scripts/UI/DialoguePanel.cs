@@ -294,8 +294,9 @@ public class DialoguePanel : MonoBehaviour
         if (info.showLastStatement)
         {
             m_SubtitlesGroup.gameObject.SetActive(true);
-            float newY = m_OptionsGroup.position.y + m_OptionsGroup.sizeDelta.y + 1;
-            m_SubtitlesGroup.position = new Vector2(m_SubtitlesGroup.position.x, newY);
+            //STIJN: No Need so far
+            //float newY = m_OptionsGroup.position.y + m_OptionsGroup.sizeDelta.y + 1;
+            //m_SubtitlesGroup.position = new Vector2(m_SubtitlesGroup.position.x, newY);
         }
 
         if (info.availableTime > 0)

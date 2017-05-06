@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor;
 using UnityEngine;
 
 //Mainly a singleton so we don't need to assign it constantly in NodeCanvas (the dialogues)
@@ -89,7 +88,10 @@ public class ScoreManager : Singleton<ScoreManager>
     private bool Deserialize()
     {
         bool success = m_Data.Deserialize(m_Filepath);
-        EditorUtility.SetDirty(m_Data);
+
+        #if UNITY_EDITOR
+            UnityEditor.EditorUtility.SetDirty(m_Data);
+        #endif
 
         return success;
     }

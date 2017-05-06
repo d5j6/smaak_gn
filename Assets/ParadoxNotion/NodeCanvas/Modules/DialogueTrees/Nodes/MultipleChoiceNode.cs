@@ -35,8 +35,9 @@ namespace NodeCanvas.DialogueTrees{
 		public float availableTime = 0;
 		public bool saySelection = false;
 		public List<Choice> availableChoices = new List<Choice>();
-		
-		public override int maxOutConnections{ get{return availableChoices.Count;} }
+        public bool addScore = true; //STIJN: Greenberg Nielsen
+
+        public override int maxOutConnections{ get{return availableChoices.Count;} }
 
 		public override void OnChildConnected(int index){
 
@@ -48,10 +49,10 @@ namespace NodeCanvas.DialogueTrees{
 
 		protected override Status OnExecute(Component agent, IBlackboard bb){
 
-			if (outConnections.Count == 0)
-				return Error("There are no connections to the Multiple Choice Node!");
+            if (outConnections.Count == 0)
+                return Error("There are no connections to the Multiple Choice Node!");
 
-			var finalOptions = new Dictionary<IStatement, int>();
+            var finalOptions = new Dictionary<IStatement, int>();
 
 			for (var i = 0; i < availableChoices.Count; i++){
 				var condition = availableChoices[i].condition;
@@ -79,11 +80,27 @@ namespace NodeCanvas.DialogueTrees{
 
 			System.Action Finalize = ()=> { DLGTree.Continue(index); };
 
+            if (addScore)
+            {
+                ScoreManager scoreManager = ScoreManager.Instance;
+                if (scoreManager == null)
+                {
+                    Debug.LogError("No score manager found: Cannot add score from MultipleChoiceNode");
+                }
+                else
+                {
+                    scoreManager.AddScore(availableChoices[index].statement.textKey);
+                }
+
+                //Log data
+            }
+
 			if (saySelection){
 				var tempStatement = availableChoices[index].statement.BlackboardReplace(graphBlackboard);
 				var speechInfo = new SubtitlesRequestInfo( finalActor, tempStatement, Finalize );
 				DialogueTree.RequestSubtitles(speechInfo);
-			} else {
+			}
+            else {
 				Finalize();
 			}
 		}
@@ -141,7 +158,9 @@ namespace NodeCanvas.DialogueTrees{
 				GUILayout.Label("Choose in '" + availableTime + "' seconds");
 			if (saySelection)
 				GUILayout.Label("Say Selection");
-			GUILayout.EndHorizontal();
+            if (addScore)
+                GUILayout.Label("Add Score");
+            GUILayout.EndHorizontal();
 		}
 
 		protected override void OnNodeInspectorGUI(){
@@ -202,7 +221,8 @@ namespace NodeCanvas.DialogueTrees{
 
 			availableTime = UnityEditor.EditorGUILayout.Slider("Available Time", availableTime, 0, 10);
 			saySelection = UnityEditor.EditorGUILayout.Toggle("Say Selection", saySelection);
-		}
+            addScore = UnityEditor.EditorGUILayout.Toggle("Add Score", addScore);
+        }
 
 		#endif
 	}

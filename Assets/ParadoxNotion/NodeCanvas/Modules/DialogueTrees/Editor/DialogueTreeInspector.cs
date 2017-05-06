@@ -48,7 +48,7 @@ namespace NodeCanvas.Editor{
 				if (dialogue.actorParameters.Where(r => r != reference).Select(r => r.name).Contains(reference.name)){
 					GUI.backgroundColor = Color.red;
 				}
-				//reference.name = EditorGUILayout.TextField(reference.name); //STIJN edit: We don't need this anymore
+				reference.name = EditorGUILayout.TextField(reference.name);
 				GUI.backgroundColor = Color.white;
 				reference.actor = (IDialogueActor)EditorGUILayout.ObjectField(reference.actor as Object, typeof(DialogueActor), true);
 				if (GUILayout.Button("X", GUILayout.Width(18))){

@@ -73,7 +73,7 @@ public class ScoreData : ScriptableObject
         }
 
         //For every row
-        for (int y = 1; y < parsedFile.GetLength(1); ++y)
+        for (int y = 0; y < parsedFile.GetLength(1); ++y)
         {
             //Get the key
             string key = parsedFile[0, y];

@@ -39,15 +39,23 @@ namespace NodeCanvas.DialogueTrees{
 
 		[System.Serializable]
 		public class ActorParameter {
-			
-			[SerializeField]
+
+            [SerializeField]
+            private string _name;
+            [SerializeField]
 			private string _id;
 			[SerializeField]
 			private UnityEngine.Object _actorObject;
 
 			private IDialogueActor _actor;
 			
-			public string name{
+            public string name
+            {
+                get { return _name; }
+                set { _name = value; }
+            }
+
+			public string visualName{
 				get
                 {
                     if (_actor == null)
