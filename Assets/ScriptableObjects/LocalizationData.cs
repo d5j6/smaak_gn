@@ -67,7 +67,10 @@ public class LocalizationData : ScriptableObject
             }
 
             //Add it to our data
-            m_Data.Add(key, translations);
+            if (m_Data.ContainsKey(key))
+                Debug.LogError("Localization parsing: " + key + " is already in use!");
+            else
+                m_Data.Add(key, translations);
         }
 
         Debug.Log("Localisation database parsed!");
