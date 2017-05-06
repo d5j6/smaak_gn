@@ -55,16 +55,6 @@ namespace NodeCanvas.DialogueTrees{
                 set { _name = value; }
             }
 
-			public string visualName{
-				get
-                {
-                    if (_actor == null)
-                        return "Actor is null";
-
-                    return _actor.name;
-                }
-			}
-
 			public string ID{
 				get {return string.IsNullOrEmpty(_id)? _id = System.Guid.NewGuid().ToString() : _id; }
 			}
@@ -253,7 +243,7 @@ namespace NodeCanvas.DialogueTrees{
 			previousDialogue = currentDialogue;
 			currentDialogue = this;
 
-			Debug.Log(string.Format("<b>DialogueTree:</b> Dialogue Started '{0}'", this.name));
+			Debug.Log(string.Format("<b>DialogueTree:</b> Dialogue Started '{0}'", this.graphComments));
 			if (OnDialogueStarted != null){
 				OnDialogueStarted(this);
 			}
