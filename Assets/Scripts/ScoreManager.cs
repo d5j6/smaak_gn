@@ -77,6 +77,17 @@ public class ScoreManager : Singleton<ScoreManager>
         AddScore(ScoreType.SocialEffectiveness, value);
     }
 
+    public void ResetScore()
+    {
+        for (int i = 0; i < Enum.GetNames(typeof(ScoreType)).Length; ++i)
+        {
+            m_Scores[i] = 0;
+
+            if (ScoreChangedEvent != null)
+                ScoreChangedEvent((ScoreType)i, 0);
+        }
+    }
+
     //Accessors
     public string GetScoresText(string key)
     {

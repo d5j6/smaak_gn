@@ -10,20 +10,39 @@ public class DialogueTreeChain : MonoBehaviour
 
     [SerializeField]
     private DialogueTreeController[] m_DialogueTrees;
+    private List<string> m_DialogueTreeNames;
 
     private void Start()
     {
         m_DialogueTrees = gameObject.GetComponentsInChildren<DialogueTreeController>();
+
+        m_DialogueTreeNames = new List<string>();
+        foreach (DialogueTreeController dialogueTree in m_DialogueTrees)
+        {
+            m_DialogueTreeNames.Add(dialogueTree.graph.graphComments);
+        }
+
         StartDialogueTree(m_CurrentDialogue);
     }
 
-    private void StartDialogueTree(int id)
+    public void StartDialogueTree(int id)
     {
         if (id < 0 || id >= m_DialogueTrees.Length)
             return;
 
         m_CurrentDialogue = id;
         m_DialogueTrees[id].StartDialogue(OnDialogueEnd);
+    }
+
+    //Accessors
+    public int GetCurrentDialogueTree()
+    {
+        return m_CurrentDialogue;
+    }
+
+    public List<string> GetSceneNames()
+    {
+        return m_DialogueTreeNames;
     }
 
     //Callback

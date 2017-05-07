@@ -87,6 +87,8 @@ public class DialoguePanel : MonoBehaviour
         get { return m_LocalSource != null ? m_LocalSource : m_LocalSource = gameObject.AddComponent<AudioSource>(); }
     }
 
+    private bool m_CanContinue = false;
+
     //Functions
     private void OnEnable()
     {
@@ -175,7 +177,7 @@ public class DialoguePanel : MonoBehaviour
             float timer = 0f;
             while (timer < audio.length)
             {
-                if (m_SkipOnInput && Input.anyKeyDown)
+                if (m_SkipOnInput && m_CanContinue)
                 {
                     playSource.Stop();
                     break;
@@ -237,7 +239,7 @@ public class DialoguePanel : MonoBehaviour
         if (m_WaitForInput)
         {
             m_WaitInputIndicator.gameObject.SetActive(true);
-            while (!Input.anyKeyDown)
+            while (!m_CanContinue)
             {
                 yield return null;
             }
@@ -247,14 +249,18 @@ public class DialoguePanel : MonoBehaviour
         yield return null;
         m_SubtitlesGroup.gameObject.SetActive(false);
         info.Continue();
+
+        m_CanContinue = false;
     }
 
     private IEnumerator CheckInput(System.Action action)
     {
-        while (!Input.anyKeyDown)
+        while (!m_CanContinue)
         {
             yield return null;
         }
+
+        m_CanContinue = false;
         action();
     }
 
@@ -350,5 +356,11 @@ public class DialoguePanel : MonoBehaviour
         {
             graphic.SetAlpha(alpha);
         }
+    }
+
+    //Button callback
+    public void ContinueDialogue()
+    {
+        m_CanContinue = true;
     }
 }
