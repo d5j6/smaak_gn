@@ -6,6 +6,7 @@ using System.Linq;
 using NodeCanvas.DialogueTrees;
 
 //Based upon the example "DialogueUGUI"
+//Will rewrite this at some point, as I do not agree with some of this code.
 public class DialoguePanel : MonoBehaviour
 {
     [System.Serializable]
