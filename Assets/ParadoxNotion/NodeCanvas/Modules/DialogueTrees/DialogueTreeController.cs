@@ -42,7 +42,7 @@ namespace NodeCanvas.DialogueTrees{
         public void StopDialogue()
         {
             graph = GetInstance(graph);
-            graph.Stop();
+            graph.Stop(false);
         }
 
         ////////////////////////////////////////

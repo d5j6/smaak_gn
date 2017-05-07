@@ -51,6 +51,7 @@ public class DialogueTreeChain : MonoBehaviour
     //Callback
     private void OnDialogueEnd(bool success)
     {
-        StartDialogueTree(m_CurrentDialogue + 1);
+        if (success)
+            StartDialogueTree(m_CurrentDialogue + 1);
     }
 }
