@@ -274,8 +274,8 @@ public class DialoguePanel : MonoBehaviour
     private void OnMultipleChoiceRequest(MultipleChoiceRequestInfo info)
     {
         m_OptionsGroup.gameObject.SetActive(true);
-        float buttonHeight = m_OptionButton.GetComponent<RectTransform>().rect.height;
-        m_OptionsGroup.sizeDelta = new Vector2(m_OptionsGroup.sizeDelta.x, (info.options.Values.Count * buttonHeight) + 20);
+        float buttonHeight = m_OptionButton.GetComponent<RectTransform>().rect.height + 10;
+        m_OptionsGroup.sizeDelta = new Vector2(m_OptionsGroup.sizeDelta.x, (info.options.Values.Count * buttonHeight) + 10);
 
         m_CachedButtons = new Dictionary<Button, int>();
         int i = 0;

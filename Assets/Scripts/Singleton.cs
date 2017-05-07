@@ -16,8 +16,8 @@ public class Singleton<T> : MonoBehaviour where T : Component
             if (_instance == null)
             {
                 _instance = (T)FindObjectOfType(typeof(T));
-                if (_instance == null)
-                    Debug.LogError(typeof(T).ToString() + " could not be found!");
+                //if (_instance == null)
+                    //Debug.LogError(typeof(T).ToString() + " could not be found!");
 
                 //if (_instance == null)
                 //    _instance = (new GameObject(typeof(T).ToString()).AddComponent<T>());

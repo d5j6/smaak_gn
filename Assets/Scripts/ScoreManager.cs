@@ -6,6 +6,8 @@ using UnityEngine;
 //Mainly a singleton so we don't need to assign it constantly in NodeCanvas (the dialogues)
 public class ScoreManager : Singleton<ScoreManager>
 {
+    public delegate void ScoreTypeIntDelegate(ScoreType scoreType, int i);
+
     public enum ScoreType
     {
         Power,
@@ -20,6 +22,8 @@ public class ScoreManager : Singleton<ScoreManager>
     private ScoreData m_Data;
 
     private int[] m_Scores;
+
+    public event ScoreTypeIntDelegate ScoreChangedEvent;
 
     protected override void Awake()
     {
@@ -53,6 +57,9 @@ public class ScoreManager : Singleton<ScoreManager>
         m_Scores[(int)scoreType] += value;
         Debug.Log("Added a " + scoreType.ToString() + " score of " + value +
                   ". Total " + scoreType.ToString() + " score is now " + m_Scores[(int)scoreType]);
+
+        if (ScoreChangedEvent != null)
+            ScoreChangedEvent(scoreType, m_Scores[(int)scoreType]);
     }
 
     public void AddPowerScore(int value)
