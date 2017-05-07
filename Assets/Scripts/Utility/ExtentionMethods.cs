@@ -14,7 +14,7 @@ public class ExtentionMethods
         string fileText = "";
         try
         {
-            fileText = File.ReadAllText(filename);
+            fileText = File.ReadAllText(filename, System.Text.Encoding.UTF8);
         }
         catch (Exception e)
         {
