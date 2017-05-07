@@ -39,14 +39,18 @@ namespace NodeCanvas.DialogueTrees{
 			graph.StartGraph(this, blackboard, true, callback);
 		}
 
+        public void StopDialogue()
+        {
+            graph = GetInstance(graph);
+            graph.Stop();
+        }
 
+        ////////////////////////////////////////
+        ///////////GUI AND EDITOR STUFF/////////
+        ////////////////////////////////////////
+        #if UNITY_EDITOR
 
-		////////////////////////////////////////
-		///////////GUI AND EDITOR STUFF/////////
-		////////////////////////////////////////
-		#if UNITY_EDITOR	
-
-		new void Reset(){
+        new void Reset(){
 			base.enableAction = EnableAction.DoNothing;
 			base.disableAction = DisableAction.DoNothing;
 			SetBoundGraphReference(ScriptableObject.CreateInstance<DialogueTree>());

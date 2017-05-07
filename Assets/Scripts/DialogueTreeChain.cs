@@ -30,6 +30,9 @@ public class DialogueTreeChain : MonoBehaviour
         if (id < 0 || id >= m_DialogueTrees.Length)
             return;
 
+        if (m_CurrentDialogue >= 0)
+            m_DialogueTrees[m_CurrentDialogue].StopDialogue();
+
         m_CurrentDialogue = id;
         m_DialogueTrees[id].StartDialogue(OnDialogueEnd);
     }
