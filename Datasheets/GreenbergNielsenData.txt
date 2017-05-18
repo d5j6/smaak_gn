@@ -1,0 +1,1182 @@
+ID	Dutch	Power	Brains	Social effectiveness																					
+CHARACTER_PLAYER	Jij																								
+CHARACTER_STEWARDESS	Stewardess																								
+CHARACTER_OLDMAN	Oude man																								
+CHARACTER_EVA	Eva																								
+CHARACTER_MARK	Mark																								
+CHARACTER_VINCENT	Vincent																								
+CHARACTER_YOUNGARCHEOLOGIST	Jonge archeoloog																								
+0	0																								
+SCENE_1_1_DESCRIPTION_1	Je zit in een vliegtuig. Grauw, geroezemoes, een jengelende baby. Het vliegtuig zit vol met passagiers en iedereen zit hutje mutje op elkaar gepakt. Je kunt je benen haast niet kwijt. Overal bagage, dienblaadjes, jassen etc. Naast je zit een lelijke, dikke man. Hij zweet en hangt snurkend in zijn stoel. Een VOL vliegtuig. Een STEWARDESS met trolley komt langs. Ze ziet er vriendelijk uit.																								
+SCENE_1_1_STEWARDESS_1	Heeft u het formulier al ingevuld?																								
+SCENE_1_1_DESCRIPTION_2	Het tafeltje van je stoel is uitgeklapt. Er liggen nog wat bakjes en bekertje half gevuld met koffie en een leeg zakje nootjes. Tussen de troep ligt een formulier en een pen. Je naam, geslacht, leeftijd en beroep zijn al ingevuld. De laatste regel is nog leeg: Doel van de reis?.																								
+SCENE_1_1_CHOICE_1	Een zonnige strandvakantie	1	2	3																					
+SCENE_1_1_CHOICE_2	Een sollicitatie in New York  	1	2	3																					
+SCENE_1_1_CHOICE_3	Familiebezoek	1	2	3																					
+SCENE_1_1_CHOICE_4	Terug naar huis	1	2	3																					
+0	0																								
+SCENE_1_2_DESCRIPTION_1	"De STEWARDESS ruimt dienbladen van andere passagiers op. Dan ben jij aan de beurt.
+De stewardess reikt voor je langs om de troep op je tafeltje op te ruimen. Terwijl ze dit doet, stoot ze per ongeluk het koffiekopje om. Koffie sijpelt op je benen en laat een flinke vlek achter op je broek. Het babygejengel wordt steeds heftiger. 
+"																								
+SCENE_1_2_STEWARDESS_1	Oeps! O jeetje! Mijn excuses!																								
+SCENE_1_2_CHOICE_1	Het is niet erg.	1	2	3																					
+SCENE_1_2_CHOICE_2	"Het is mijn schuld; had ik mijn koffie maar moeten opdrinken."	1	2	3																					
+SCENE_1_2_CHOICE_3	Ook dat nog. Ik stuur de rekening wel naar je baas. 	1	2	3																					
+0	0																								
+SCENE_1_3_DESCRIPTION_1	De STEWARDESS overhandigt je een doekje. 																								
+SCENE_1_3_STEWARDESS_1	"Het spijt me echt heel erg. 
+Kan ik u misschien nog iets te drinken aanbieden?"																								
+SCENE_1_3_CHOICE_1	Nee, dank u.	1	2	3																					
+SCENE_1_3_CHOICE_2	Water alstublieft.	1	2	3																					
+SCENE_1_3_CHOICE_3	Doe maar een borrel!	1	2	3																					
+SCENE_1_3_CHOICE_4	Een nieuwe broek graag.	1	2	3																					
+0	0																								
+SCENE_1_4_STEWARDESS_1	Ik heb niet veel meer, maar ik sta erop dat ik u een nieuwe koffie geef. 																								
+SCENE_1_4_DESCRIPTION_1	Het babygejengel achter je gaat nu over in luid gekrijs. 																								
+SCENE_1_4_CHOICE_1	Kunt u misschien iets aan die baby doen?	1	2	3																					
+SCENE_1_4_CHOICE_2	Zou ik misschien een andere stoel kunnen krijgen?	1	2	3																					
+SCENE_1_4_CHOICE_3	Heeft u een koptelefoon voor me?	1	2	3																					
+0	0																								
+SCENE_1_5_STEWARDESS_1	Helaas?. Ik zou graag iets voor u willen doen, maar dit is een erg drukke vlucht. Het spijt me. 																								
+SCENE_1_5_CHOICE_1	...	1	2	3																					
+SCENE_1_5_CHOICE_2	Ik vind dit echt niet kunnen.	1	2	3																					
+SCENE_1_5_CHOICE_3	Valt voor u ook niet mee, zeker. 	1	2	3																					
+SCENE_1_5_CHOICE_4	Ik sla me er wel doorheen.	1	2	3																					
+SCENE_1_5_STEWARDESS_2	Nogmaals mijn excuses. Als u zich er beter bij voelt, kunt u een klacht indienen via de website van de vliegtuigmaatschappij.																								
+SCENE_1_5_STEWARDESS_3	Dank voor uw begrip. Het is inderdaad erg onrustig.																								
+0	0																								
+SCENE_1_6_DESCRIPTION_1	"Als je door het gangpad naar voren kijkt, kun je een glimp opvangen van de businessclass. Zonlicht valt naar binnen; het gangpad is ruim, de stoelen breed, er klinkt zachte jazzmuziek en misschien hoor je wel het getinkel van ijsklontjes in een een glas. Daar zie je een jonge, knappe man die in het gangpad staat, leunend tegen een stoel. Hij praat vol enthousiasme en lacht uitbundig. De man draagt dure kleding en krijgt een latte-koffie in sjiek glas aangereikt door de stewardess. Hij lacht luid en schaamteloos. De STEWARDESS kijkt er ook naar."																								
+SCENE_1_6_STEWARDESS_1	Als je geld teveel hebt, kun je wat extra beenruimte kopen, maar eigenlijk is het weggegooid geld. Uiteindelijk drinkt hij dezelfde koffie als u, alleen uit een chiquer kopje. 																								
+SCENE_1_6_CHOICE_1	Doe mij dat chique kopje maar.	1	2	3																					
+SCENE_1_6_CHOICE_2	Die man maakt meer herrie dan die baby.	1	2	3																					
+SCENE_1_6_CHOICE_3	Ieder zijn ding.	1	2	3																					
+SCENE_1_6_CHOICE_4	Ik besteed mijn geld liever aan andere dingen.	1	2	3																					
+0	0																								
+SCENE_1_7_DESCRIPTION_1	Een paar dames in businessclass willen dat de man zijn handtekening zet. Er worden foto?s gemaakt. De man lijkt een soort beroemdheid te zijn. Dan roept de man om ?champagne!? 																								
+SCENE_1_7_STEWARDESS_1	(Zucht.) Niet iedereen krijgt dezelfde kansen in het leven? 																								
+SCENE_1_7_CHOICE_1	Wacht maar, over een tijdje zit ik daar!	1	2	3																					
+SCENE_1_7_CHOICE_2	Hij heeft er vast hard voor gewerkt.	1	2	3																					
+SCENE_1_7_CHOICE_3	Ik weet zeker dat jij daar ook zou kunnen zitten.	1	2	3																					
+SCENE_1_7_CHOICE_4	Succes maakt niet per se gelukkig.	1	2	3																					
+0	0																								
+SCENE_1_8_DESCRIPTION_1	"Het vliegtuig maakt ineens een schok. Het gordijntje van de businessclass schuift dicht. Een paar gilletjes, de baby valt stil. Daarna opgelucht geroezemoes. De STEWARDESS loopt snel terug met haar trolley. 
+Aan de overkant van het gangpad, op SEAT 37D, zit een OUDE MAN, zo zie je nu. Hij kijkt naar je. Dan buigt hij zich naar je toe."																								
+SCENE_1_8_OLDMAN_1	Turbulentie. Niets om je druk over te maken.																								
+SCENE_1_8_CHOICE_1	?	1	2	3																					
+SCENE_1_8_CHOICE_2	Dank u. Ja, toch een beetje spannend.	1	2	3																					
+SCENE_1_8_CHOICE_3	Ik maak me niet druk!	1	2	3																					
+SCENE_1_8_CHOICE_4	Gelukkig zitten we dichtbij de nooduitgang?	1	2	3																					
+0	0																								
+SCENE_1_9_DESCRIPTION_1	De OUDE MAN knikt vriendelijk naar je. 																								
+SCENE_1_9_OLDMAN_1	Angst is een vorm van wijsheid.																								
+SCENE_1_9_CHOICE_1	Ach ja?	1	2	3																					
+SCENE_1_9_CHOICE_2	Laat me toch met rust.	1	2	3																					
+SCENE_1_9_CHOICE_3	Nou, inderdaad!	1	2	3																					
+SCENE_1_9_OLDMAN_2	Pardon? Ik verstond je niet.																								
+SCENE_1_9_PLAYER_1	Laat maar.																								
+0	0																								
+SCENE_1_10_DESCRIPTION_1	De OUDE MAN buigt zich iets verder naar je toe en wijst dan naar het (gesloten) gordijn van de businessclass.																								
+SCENE_1_10_OLDMAN_1	"Businessclass. Dat zouden we allemaal wel willen?
+Maar als je succesvol wilt zijn, moet je ook veel dingen laten. Elke keuze die je maakt betekent dat je een ander levenspad niet kiest. 
+"																								
+SCENE_1_10_CHOICE_1	Ik wil vooral een avontuurlijk levenspad  	1	2	3																					
+SCENE_1_10_CHOICE_2	Ik wil vooral een gezellig levenspad	1	2	3																					
+SCENE_1_10_CHOICE_3	Ik wil gewoon de top bereiken	1	2	3																					
+SCENE_1_10_CHOICE_4	Dat is precies wat ik lastig vind aan keuzes maken	1	2	3																					
+0	0																								
+SCENE_1_11_DESCRIPTION_1	De OUDE MAN legt zijn hand even op je arm. 																								
+SCENE_1_11_OLDMAN_1	Alles is bereikbaar, maar dan moet je ook bereid zijn om offers te brengen. Ben je dat?																								
+SCENE_1_11_CHOICE_1	Niet altijd.  	1	2	3																					
+SCENE_1_11_CHOICE_2	"Ik geloof niet in offers; ik geloof in geluk hebben."	1	2	3																					
+SCENE_1_11_CHOICE_3	Tuurlijk! Als het iets oplevert?	1	2	3																					
+SCENE_1_11_CHOICE_4	Nee. Ik spreid mijn kansen liever. 	1	2	3																					
+0	0																								
+SCENE_1_12_DESCRIPTION_1	De OUDE MAN knikt je bemoedigend toe. Hij pakt een koord dat om zijn nek hangt en haalt die over zijn hoofd. Hij houdt het koord voor zich. Onder aan het touwtje hangt een soort amulet. Het is een oud rond stukje glas met een gat erin en een breuk.																								
+SCENE_1_12_OLDMAN_1	"Dit amulet kan je helpen je eigen richting te bepalen.
+Het heeft mij geholpen. Lang geleden. Je mag het hebben.
+"																								
+SCENE_1_12_CHOICE_1	Nee bedankt. Ik weet hoe ik dingen voor elkaar krijg.	1	2	3																					
+SCENE_1_12_CHOICE_2	Ach, je weet nooit waar zoiets goed voor is.	1	2	3																					
+SCENE_1_12_CHOICE_3	Ik geloof niet in bijgeloof.	1	2	3																					
+SCENE_1_12_CHOICE_4	Bedankt! Ik kan wel wat hulp gebruiken!	1	2	3																					
+0	0																								
+SCENE_1_13_DESCRIPTION_1	"Het vliegtuig maakt een hevige schok. Een stewardess gilt. De emergency-lampjes springen aan en beginnen te piepen. De baby krijst, mensen jammeren, huilen. De lichten in het vliegtuig gaan uit, alleen de noodverlichting is nog te zien.
+Uit het plafond komen zuurstofkapjes naar beneden. Het klepje van jouw mondkampje blijft haken. Boven je dikke buurman komt wel een kapje naar beneden. De man slaapt nog steeds.
+"																								
+SCENE_1_13_DESCRIPTION_2	MG1 LOGICA GAME 1 																								
+SCENE_1_13_DESCRIPTION_3	Het klepje gaat open en een zuurstofmasker valt eruit. Het beeld wordt langzaam blurry. We horen een TUUUUUUUT die langzaam aanzwelt. Dan wordt alles zwart.																								
+0	0																								
+SCENE_1_14_DESCRIPTION_1	We zien een klein, ouderwets model propellervliegtuig in zwart/wit/sepia, dat vliegt door de lucht boven tropische wateren. Het vliegtuig vliegt over een eiland en dropt vrachten. Het zijn drie grote houten kisten die aan parachutes gebonden zijn. Op de kisten en de parachutes is eenzelfde overheidslogo te zien.																								
+0	0																								
+SCENE_2_1_DESCRIPTION_1	Je ontwaakt op een strand. Het zeewater is helderblauw, de zon brandt in je gezicht en je hoort het klotsen van de golven tegen de kust. Voor je zie je de wrakstukken van het vliegtuig. De TUUUUUT fade langzaam weg.																								
+SCENE_2_1_PLAYER_1	Wat? wat is er gebeurd? Waar ben ik?																								
+SCENE_2_1_DESCRIPTION_2	"Je kijkt om je heen. Overal liggen wrakstukken; kapotte vliegtuigstoelen, een koffer, zuurstofmaskers etc.
+Je ligt met je benen half in het water. Je gaat staan. Wankel.
+"																								
+SCENE_2_1_PLAYER_2	Dorst. Koppijn...																								
+SCENE_2_1_DESCRIPTION_3	"Naast je ligt een rugzak. Je grijpt hem en opent het voorvakje.
+Je pakt er een telefoon uit en zet hem aan. De telefoon is gelocked. Om het te unlocken moet je de code kraken. Hier ontvouwt zich:"																								
+SCENE_2_1_DESCRIPTION_4	LOGICA GAME 2 																								
+0	0	1	2	3																					
+SCENE_2_2_DESCRIPTION_1	De telefoon wordt geunlocked. Hij doet raar, maar je kunt wel je laatst gebelde nummers zien. Welk nummer kies je.																								
+SCENE_2_2_CHOICE_1	Mama	1	2	3																					
+SCENE_2_2_CHOICE_2	Noodoproep	1	2	3																					
+SCENE_2_2_CHOICE_3	Liefje	1	2	3																					
+SCENE_2_2_CHOICE_4	Boss	1	2	3																					
+SCENE_2_2_DESCRIPTION_2	Nadat je een keuze hebt gemaakt, valt de telefoon uit. Het beeld wordt zwart en water loopt eruit.																								
+SCENE_2_2_PLAYER_1	Shit!																								
+0	0	1	2	3																					
+SCENE_2_3_CHOICE_1	Telefoon weggooien.	1	2	3																					
+SCENE_2_3_CHOICE_2	Telefoon terug doen in rugzak.	1	2	3																					
+SCENE_2_3_CHOICE_3	Telefoon uit elkaar halen.	1	2	3																					
+SCENE_2_3_DESCRIPTION_1	Je gooit je telefoon met een grote boog in de zee.																								
+SCENE_2_3_DESCRIPTION_2	Je stopt je telefoon weg.																								
+SCENE_2_3_DESCRIPTION_3	Je haalt de batterij uit je telefoon en stopt vervolgens de telefoon weg.																								
+0	0	1	2	3																					
+SCENE_2_4_DESCRIPTION_1	Een grote tropische vogel vliegt rustig door de lucht. Je begint te hoesten.																								
+SCENE_2_4_PLAYER_1	"Uche uche?.
+Help!!! Is daar iemand?
+Uche uche? Water!!"																								
+SCENE_2_4_DESCRIPTION_2	Dan zie je het amulet. Het ligt aan je voeten in het zand en schittert in het zonlicht.																								
+SCENE_2_4_PLAYER_2	Wat?? Dat amulet?																								
+SCENE_2_4_CHOICE_1	Amulet laten liggen.	1	2	3																					
+SCENE_2_4_CHOICE_2	Amulet omdoen.	1	2	3																					
+SCENE_2_4_CHOICE_3	Amulet in broekzak doen. 	1	2	3																					
+SCENE_2_4_DESCRIPTION_3	Een golf duwt het  verder het strand op tot het je tenen raakt. 																								
+SCENE_2_4_PLAYER_3	Nou, vooruit dan maar? In mn broekzak. 																								
+SCENE_2_4_DESCRIPTION_4	Je pakt het amulet op.																								
+SCENE_2_4_DESCRIPTION_5	Je pakt het amulet op en doet het om je nek.																								
+SCENE_2_4_DESCRIPTION_6	Je pakt het amulet op en doet het in je zak.																								
+0	0	1	2	3																					
+SCENE_2_5_DESCRIPTION_1	De zon prikt in je ogen en je begint weer te hoesten.																								
+SCENE_2_5_PLAYER_1	"Ik moet water hebben. Nu! 
+Maar waar?.? "																								
+SCENE_2_5_CHOICE_1	In het vliegtuigwrak.	1	2	3																					
+SCENE_2_5_CHOICE_2	In de natuur.	1	2	3																					
+SCENE_2_5_CHOICE_3	In de aangespoelde bagage. 	1	2	3																					
+SCENE_2_5_DESCRIPTION_2	Je probeert het vliegtuig te naderen maar de wrakstukken blijken te ver om op te klimmen. Als het niet lukt, loop je terug naar het strand en volg je de kustlijn.																								
+SCENE_2_5_DESCRIPTION_3	Je volgt de kustlijn.																								
+0	0	1	2	3																					
+SCENE_2_6_PLAYER_1	Ik moet een plan hebben..																								
+SCENE_2_6_CHOICE_1	Ik ga op zoek naar water.	1	2	3																					
+SCENE_2_6_CHOICE_2	Ik ga op zoek naar eten.	1	2	3																					
+SCENE_2_6_CHOICE_3	Ik ga op zoek naar een werkende telefoon.	1	2	3																					
+SCENE_2_6_CHOICE_4	Ik ga op zoek naar andere overlevenden.	1	2	3																					
+0	0	1	2	3																					
+SCENE_2_7_DESCRIPTION_1	Je loopt naar een koffer die langs de kustlijn ligt. 																								
+SCENE_2_7_PLAYER_1	Die koffer? misschien zit daar iets in dat me kan helpen?																								
+SCENE_2_7_DESCRIPTION_2	Je loopt naar de koffer toe. Het is een zwart zakelijk koffertje, waarschijnlijk uit de Businessclass. Het koffertje heeft een codeslot. Hier ontvouwt zich logica puzzel 3.																								
+SCENE_2_7_DESCRIPTION_3	LOGICA GAME 3																								
+0	0	1	2	3																					
+SCENE_2_8_DESCRIPTION_1	De koffer springt open. De inhoud is nat, vies en rommelig. 																								
+SCENE_2_8_PLAYER_1	Wat een ravage?																								
+SCENE_2_8_DESCRIPTION_2	In het koffertje ligt een aantal voorwerpen. Welke neem je mee?																								
+SCENE_2_8_CHOICE_1	Het tijdschrift	1	2	3																					
+SCENE_2_8_CHOICE_2	Het stapeltje bankbiljetten	1	2	3																					
+SCENE_2_8_CHOICE_3	Kleding	1	2	3																					
+SCENE_2_8_CHOICE_4	Niets	1	2	3																					
+SCENE_2_8_DESCRIPTION_3	Je pakt iets uit de koffer en zoekt verder.																								
+SCENE_2_8_DESCRIPTION_4	Je pakt niets uit de koffer en zoekt verder. 																								
+0	0	1	2	3																					
+SCENE_2_9_DESCRIPTION_1	Onder in de koffer stuit je op een flesje met vies uitziend water. Je grijpt het flesje en draait de dop eraf. Je ruikt eraan.																								
+SCENE_2_9_PLAYER_1	Gadverdamme! 																								
+SCENE_2_9_CHOICE_1	Ik drink het op.	1	2	3																					
+SCENE_2_9_CHOICE_2	Ik gooi het weg.	1	2	3																					
+SCENE_2_9_CHOICE_3	Ik bewaar alleen het flesje. 	1	2	3																					
+SCENE_2_9_CHOICE_4	Ik bewaar het flesje met water.	1	2	3																					
+SCENE_2_9_DESCRIPTION_2	Je pakt drinkt het water en gooit het flesje weg. 																								
+SCENE_2_9_DESCRIPTION_3	Je gooit het flesje weg. 																								
+SCENE_2_9_DESCRIPTION_4	Je gooit het water weg en bewaart het flesje in je rugzak. 																								
+SCENE_2_9_DESCRIPTION_5	Je bewaart het flesje in je rugzak. 																								
+0	0	1	2	3																					
+SCENE_2_10_DESCRIPTION_1	Je vervolgt je weg langs de kustlijn en passeert een overhangende rots. Op de rotswand zijn tekeningen te zien. Je bekijkt de rotstekeningen van dichtbij. De tekening bestaat uit een aantal complexe en abstracte figuren. Hier ontvouwt zich: 																								
+SCENE_2_10_DESCRIPTION_2	LOGICA GAME 4																								
+0	0	1	2	3																					
+SCENE_2_11_DESCRIPTION_1	"Onder de rots, op het zand liggen vier objecten; een touw, een bijl, een ehbo-doos en een grote schelp."																								
+SCENE_2_11_PLAYER_1	Ik kan maar ‚‚n ding meenemen?																								
+SCENE_2_11_CHOICE_1	Het touw 	1	2	3																					
+SCENE_2_11_CHOICE_2	De bijl  	1	2	3																					
+SCENE_2_11_CHOICE_3	De EHBO-doos  	1	2	3																					
+SCENE_2_11_CHOICE_4	Een zaklamp	1	2	3																					
+SCENE_2_11_DESCRIPTION_2	Je stopt datgene wat je kiest in je rugzak.																								
+0	0	1	2	3																					
+SCENE_2_12_DESCRIPTION_1	Je loopt verder langs de kustlijn. 																								
+SCENE_2_12_PLAYER_1	Waar ben ik? Waar is iedereen? Wat moet ik doen?																								
+SCENE_2_12_CHOICE_1	Een vlot maken	1	2	3																					
+SCENE_2_12_CHOICE_2	Een radio of zender zoeken	1	2	3																					
+SCENE_2_12_CHOICE_3	Een vuur maken	1	2	3																					
+SCENE_2_12_CHOICE_4	Groot HELP schrijven in het zand	1	2	3																					
+0	0	1	2	3																					
+SCENE_2_13_DESCRIPTION_1	Dan hoor je ineens een angstaanjagend gekrijs.																								
+SCENE_2_13_PLAYER_1	Wat was dat? Gekrijs?																								
+SCENE_2_13_CHOICE_1	Wie is daar? Kom tevoorschijn!	1	2	3																					
+SCENE_2_13_CHOICE_2	Is daar iemand? Heb je hulp nodig?	1	2	3																					
+SCENE_2_13_CHOICE_3	Shit! Verstoppen?	1	2	3																					
+SCENE_2_13_CHOICE_4	??.?	1	2	3																					
+0	0	1	2	3																					
+SCENE_2_14_DESCRIPTION_1	Het gekrijs komt dichterbij. Dan zie je ineens dat het een meeuw is. De meeuw fladdert en krijst bij een koffer. Met zijn snavel trekt hij aan iets. Je komt dichterbij en ziet dat de vogel een vliegtuigmaaltijd gevonden heeft. De folie van het bakje is half geopend en de vogel probeert die met zijn snavel verder te verwijderen.																								
+SCENE_2_14_CHOICE_1	Ik laat de vogel 	1	2	3																					
+SCENE_2_14_CHOICE_2	Ik jaag de vogel weg  	1	2	3																					
+SCENE_2_14_DESCRIPTION_2	De vogel vliegt ineens omhoog met het bakje en laat het dan voor je voeten in het zand vallen. Je raapt het op.																								
+0	0	1	2	3																					
+SCENE_2_15_DESCRIPTION_1	Je trekt de folie weg. In het bakje liggen resten van een vliegtuigmaaltijd. Het ziet er smerig uit.																								
+SCENE_2_15_CHOICE_1	Ik eet het eten op.	1	2	3																					
+SCENE_2_15_CHOICE_2	Ik gooi het weg.	1	2	3																					
+SCENE_2_15_CHOICE_3	Ik gooi het weg, bewaar het bakje.	1	2	3																					
+SCENE_2_15_DESCRIPTION_2	Je neemt een hap van het eten en spuugt het dan uit.																								
+SCENE_2_15_DESCRIPTION_3	Je gooit het eten weg en laat het bakje dan ook vallen.																								
+SCENE_2_15_DESCRIPTION_4	Je gooit het eten weg en stopt het bakje in je rugzak.																								
+SCENE_2_15_DESCRIPTION_5	Je vervolgt je weg langs de kustlijn. Je ziet dat het strand verderop overgaat in een bos en daarachter doemt een berg op. Op die berg zie je iets wat lijkt op een antenne of iets dergelijks. Je passeert de rotswand. 																								
+0	0	1	2	3																					
+SCENE_2_16_DESCRIPTION_1	We zien dezelfde plek in zwart/wit/sepia. Voor ons in het zand zien we bandensporen en als we recht voor ons kijken, zien we een jaren ?50 pick up-jeepje langzaam optrekken. Uit de autoradio klinkt ?Mr Sandman? van de Chordettes. In de laadbak zien we een jonge man van de achterkant met Indiana Jones-achtige hoed. Hij zit naast drie grote kisten en parachutes in de laadbak. De overheids-logo?s op de kisten en de parachutes zijn deels zichtbaar. Het jeepje rijdt recht vooruit over het zand en rijdt dan omhoog het bos in. Daar bevindt zich een primitieve ?weg? van uitgesleten bandensporen tussen rijen weggekapte palmbomen. Het jeepje rijdt weg over deze ?weg? en verdwijnt uit het oog.																								
+0	0	1	2	3																					
+SCENE_3_1_DESCRIPTION_1	Je vervolgt je weg langs de kustlijn en loopt langs de rotswand. Ineens hoor je geschreeuw.																								
+SCENE_3_1_EVA_1	H‚, hallo!!!																								
+SCENE_3_1_DESCRIPTION_2	"Je kijkt om en nu zie je dat er achter de grote rots een inham is op het strand. In deze inham is een soort kampement gebouwd, zie je nu. Er is een zeil gespannen dat een afdakje vormt. Koffers staan er opgestapeld als stoelen en banken en in het kamp staan 5 mensen. Ze staren met grote ogen naar jou en wijzen. EVA, de stewardess komt op je afgerend.
+Als ze vlak voor je staat bekijkt ze je verbijsterd van top tot teen."																								
+SCENE_3_1_EVA_2	"Gaat het?
+Wij dachten dat je dood was? "																								
+SCENE_3_1_PLAYER_1	O gelukkig! Ik ben niet alleen?																								
+SCENE_3_1_EVA_3	Wij zijn de enige overlevenden van de crash! Ik ben Eva?																								
+SCENE_3_1_PLAYER_2	Wat is er gebeurd?																								
+SCENE_3_1_EVA_4	Ons vliegtuig is drie dagen geleden neergestort. 																								
+SCENE_3_1_PLAYER_3	Drie dagen?																								
+SCENE_3_1_CHOICE_1	Dat kan helemaal niet.	1	2	3																					
+SCENE_3_1_CHOICE_2	Dat verklaart mijn dorst?	1	2	3																					
+SCENE_3_1_CHOICE_3	Het is een wonder dat ik nog leef!	1	2	3																					
+SCENE_3_1_CHOICE_4	Hoe gaat het met de anderen?	1	2	3																					
+SCENE_3_1_EVA_5	Drie dagen alweer ja? Wij gingen er daarom ook niet meer vanuit dat er verder nog overlevenden zouden zijn.																								
+0	0	1	2	3																					
+SCENE_3_2_DESCRIPTION_1	EVA neemt je mee naar het basiskamp.																								
+SCENE_3_2_PLAYER_1	Weten jullie al hoe het komt dat we zijn neergestort?																								
+SCENE_3_2_EVA_1	Geen idee. Maar laten we eerst jou eens even oplappen. Je ziet er verschrikkelijk uit. Dit is ons basiskamp. We hebben water. Niet veel, maar als iedereen genoegen neemt met een paar slokjes per dag, kunnen we het hopelijk nog wel een tijdje uitzingen. Jij hebt drie dagen niks gehad, dus jij hebt recht op een heel flesje.																								
+SCENE_3_2_CHOICE_1	Dank je wel.	1	2	3																					
+SCENE_3_2_CHOICE_2	Ik wil jullie water niet opdrinken.	1	2	3																					
+SCENE_3_2_CHOICE_3	Een paar slokjes is meer dan genoeg. 	1	2	3																					
+0	0	1	2	3																					
+SCENE_3_3_DESCRIPTION_1	Het basiskamp beschikt over een vliegtuigtrolley. Daarin hebben ze wat flesjes water opgeslagen. EVA pakt een flesje en overhandigt je deze. Je pakt hem aan en drinkt.																								
+SCENE_3_3_EVA_1	We zijn hier dus neergestort op een strand. Een aantal van ons is gewond. 																								
+SCENE_3_3_PLAYER_1	O jee.																								
+SCENE_3_3_EVA_2	"Ze zijn stabiel maar kunnen niet verplaatst worden.
+We hebben al en paar verkenningstochten door het bos gemaakt en het lijkt erop dat we op een eiland zitten. Maar welk eiland? Geen idee."																								
+SCENE_3_3_PLAYER_2	The middle of nowhere?																								
+SCENE_3_3_EVA_3	"Zo zou je het kunnen omschrijven?
+We hebben hier ook geen bereik met mobiele telefoons, dus die dingen zijn waardeloos."																								
+SCENE_3_3_PLAYER_3	De mijne is ook dood?																								
+SCENE_3_3_EVA_4	We willen hier weg. Dat staat voorop. Maar in de tussentijd moeten we wel zien te overleven.																								
+SCENE_3_3_PLAYER_4	Ja, dat snap ik.																								
+SCENE_3_3_EVA_5	"We hebben er nogal wat discussie over gehad. Zoeken naar voedsel en water, een manier vinden om hier weg te komen? Wat heeft nu prioriteit??
+Wat denk jij dat we als eerste moeten doen?"																								
+SCENE_3_3_CHOICE_1	Voedsel en water 	1	2	3																					
+SCENE_3_3_CHOICE_2	Hulp zoeken 	1	2	3																					
+SCENE_3_3_CHOICE_3	Een vlot bouwen	1	2	3																					
+0	0	1	2	3																					
+SCENE_3_4_EVA_1	"Ja, dat kan?
+Dit onderwerp zorgt in onze groep voor veel discussies en het is duidelijk dat we voorlopig nergens heengaan?"																								
+SCENE_3_4_CHOICE_1	Wat afschuwelijk.	1	2	3																					
+SCENE_3_4_CHOICE_2	Een uitdaging.	1	2	3																					
+SCENE_3_4_CHOICE_3	Als we samenwerken moet dat lukken.	1	2	3																					
+SCENE_3_4_CHOICE_4	Ik kan prima overleven hier.	1	2	3																					
+SCENE_3_4_EVA_2	Tot zover redden we het, maar de voorraden gaan wel snel op.																								
+0	0	1	2	3																					
+SCENE_3_5_EVA_1	We hebben onze voorraad hier opgeslagen en we hebben met elkaar afgesproken dat we vanuit hier op zoek gaan naar water en voedsel. Elke dag verdelen we de taken. Er blijven altijd twee mensen hier om de rantsoenen te en de gewonden te bewaken. De rest gaat op expeditie. Als je water of voedsel inbrengt, heb je recht op rantsoen. 																								
+SCENE_3_5_CHOICE_1	Slim.	1	2	3																					
+SCENE_3_5_CHOICE_2	Wat een onzin. 	1	2	3																					
+SCENE_3_5_CHOICE_3	Daar doe ik niet aan mee. 	1	2	3																					
+SCENE_3_5_DESCRIPTION_1	EVA kijkt je streng aan. 																								
+SCENE_3_5_EVA_2	(kattig) Had jij een beter idee?																								
+0	0	1	2	3																					
+SCENE_3_6_DESCRIPTION_1	EVA zucht. 																								
+SCENE_3_6_EVA_1	We willen je er graag bij hebben. Je ziet er sterk uit. 																								
+SCENE_3_6_PLAYER_1	Prima. Ik doe mee.																								
+SCENE_3_6_EVA_2	Dan wil ik je eerst vragen je bezittingen in te leveren.																								
+SCENE_3_6_CHOICE_1	Natuurlijk! Alsjeblieft.	1	2	3																					
+SCENE_3_6_CHOICE_2	Waarom?	1	2	3																					
+SCENE_3_6_CHOICE_3	Dat doe ik niet.	1	2	3																					
+SCENE_3_6_DESCRIPTION_2	Je overhandigt je rugzak aan EVA. EVA lacht. 																								
+SCENE_3_6_EVA_3	Fijn. Dank je.																								
+SCENE_3_6_DESCRIPTION_3	Ze keert de tas om en geeft je de lege tas terug.																								
+SCENE_3_6_DESCRIPTION_4	EVA knikt bedenkelijk. 																								
+SCENE_3_6_EVA_4	We zijn hier allemaal gelijk. Niemand heeft priv‚bezittingen. Als je je tas niet geeft heb je geen recht meer op water of voedsel.																								
+SCENE_3_6_DESCRIPTION_5	"Je overhandigt EVA de rugzak.
+Ze keert de tas om en geeft je de lege tas terug."																								
+0	0	1	2	3																					
+SCENE_3_7_EVA_1	Als je mee wilt doen, betekent dat dat wij straks samen op expeditie gaan. Wat zijn dingen waarmee jij kunt bijdragen aan de groep?																								
+SCENE_3_7_CHOICE_1	Op de uitkijk staan.	1	2	3																					
+SCENE_3_7_CHOICE_2	Eetbare planten en vruchten zoeken.	1	2	3																					
+SCENE_3_7_CHOICE_3	Dieren vangen en doden.	1	2	3																					
+SCENE_3_7_CHOICE_4	Vuur maken.	1	2	3																					
+SCENE_3_7_EVA_2	Dat is fijn! Daar hebben we wat aan.																								
+0	0	1	2	3																					
+SCENE_3_8_DESCRIPTION_1	EVA wijst op een aantal tassen en koffers die ongeopend op een berg ligt. 																								
+SCENE_3_8_EVA_1	Die bagage heb ik vanmorgen gevonden. We moeten ze openmaken en controleren of er voedsel of water in zit. Wil jij meehelpen?																								
+SCENE_3_8_CHOICE_1	Ja hoor	1	2	3																					
+SCENE_3_8_CHOICE_2	Ik wil liever eerst even bijkomen 	1	2	3																					
+SCENE_3_8_DESCRIPTION_2	EVA lacht vriendelijk en wijst naar een tas. 																								
+SCENE_3_8_DESCRIPTION_3	EVA begint zelf. 																								
+SCENE_3_8_EVA_2	Neem je tijd. We zullen je kracht nog nodig hebben.																								
+0	0	1	2	3																					
+SCENE_3_9_DESCRIPTION_1	EVA gooit je een tas toe. Je opent een tas. Er zit een lunchpakketje in en een flesje water.																								
+SCENE_3_9_CHOICE_1	Ik stop het snel in mijn tas	1	2	3																					
+SCENE_3_9_CHOICE_2	Ik eet en drink het stiekem op	1	2	3																					
+SCENE_3_9_CHOICE_3	Ik geef het aan Eva	1	2	3																					
+SCENE_3_9_CHOICE_4	Ik laat mijn vondst aan iedereen zien.	1	2	3																					
+SCENE_3_9_DESCRIPTION_2	Je pakt het lunchpakketje snel weg. EVA ziet het niet. 																								
+SCENE_3_9_DESCRIPTION_3	Je geeft het lunchpakketje en het flesje aan EVA. 																								
+SCENE_3_9_EVA_1	Super! Dank je.																								
+SCENE_3_9_DESCRIPTION_4	EVA neemt de vondst aan en zet die in de trolley.																								
+0	0	1	2	3																					
+SCENE_3_10_EVA_1	Ik denk dat je een waardevolle aanwinst voor onze groep kunt zijn. Niet iedereen is te vertrouwen weet je?.																								
+SCENE_3_10_PLAYER_1	Hoe bedoel je?																								
+SCENE_3_10_EVA_2	"Laat ik het hierbij houden; we zijn behoorlijk bedrogen. Dat wil ik niet nog eens meemaken? "																								
+SCENE_3_10_DESCRIPTION_1	EVA wendt zich af. Dan zie dat een van de anderen stiekem een flesje appelsap in zijn binnenzak doet. De man ziet er uitgehongerd en ziek uit. Als hij ziet dat jij hem hebt betrapt, kijkt hij je verschrikt aan.																								
+SCENE_3_10_MARK_1	Alsjeblieft, verraad me niet?																								
+SCENE_3_10_CHOICE_1	Je geheim is veilig bij mij.	1	2	3																					
+SCENE_3_10_CHOICE_2	Die ga je zelf aan Eva geven, toch?	1	2	3																					
+SCENE_3_10_CHOICE_3	Prima. Als je mij dat sap geeft.	1	2	3																					
+SCENE_3_10_CHOICE_4	Eva! We hebben hier een dief! 	1	2	3																					
+SCENE_3_10_DESCRIPTION_2	De man knikt naar je. Maar dan hoor je ineens boos de stem van EVA.																								
+SCENE_3_10_DESCRIPTION_3	Je hoort boos de stem van EVA.																								
+SCENE_3_10_EVA_3	H‚! 																								
+0	0	1	2	3																					
+SCENE_3_11_DESCRIPTION_1	EVA heeft het ook gezien. Haar gezicht wordt rood en haar stem slaat over.																								
+SCENE_3_11_EVA_1	Mark! We hebben het hier over gehad! Alles wat je vindt is voor de groep!!																								
+SCENE_3_11_MARK_1	Het spijt me. Ik voel me zo zwak... Als ik iets meer zou eten?																								
+SCENE_3_11_EVA_2	Niets mee te maken. We kunnen ons geen uitzonderingen veroorloven. Je ligt eruit. 																								
+SCENE_3_11_MARK_2	Alsjeblieft Eva?																								
+SCENE_3_11_DESCRIPTION_2	EVA twijfelt even. Dan richt ze zich tot jou.																								
+SCENE_3_11_EVA_3	Wat vind jij? 																								
+SCENE_3_11_CHOICE_1	Regels zijn regels? 	1	2	3																					
+SCENE_3_11_CHOICE_2	We kunnen het door de vingers zien 	1	2	3																					
+SCENE_3_11_CHOICE_3	Geen idee.	1	2	3																					
+SCENE_3_11_DESCRIPTION_3	EVA knikt vertwijfeld.																								
+SCENE_3_11_MARK_3	Nog ‚‚n kans. Alsjeblieft. Ik overleef het hier niet alleen? Ik beloof je dat ik het nooit meer zal doen.																								
+SCENE_3_11_EVA_4	"Nog ‚‚n keer Mark, en ik zal je moeten laten gaan.
+Zonder regels zijn we nergens?"																								
+0	0	1	2	3																					
+SCENE_3_12_DESCRIPTION_1	MARK geeft het flesje aan EVA en maakt zich uit de voeten. EVA Stopt het flesje in de trolley en overhandigt je een stuk brood.																								
+SCENE_3_12_EVA_1	"Dank je wel voor je hulp. Je rantsoen voor vandaag heb je alvast verdiend. Maar let op; dit is dus alles wat je vandaag krijgt. "																								
+SCENE_3_12_CHOICE_1	Ik eet het direct op.	1	2	3																					
+SCENE_3_12_CHOICE_2	Ik bewaar het brood voor later.	1	2	3																					
+SCENE_3_12_CHOICE_3	Ik eet een beetje en bewaar de rest.	1	2	3																					
+SCENE_3_12_CHOICE_4	Ik deel mijn brood met MARK.	1	2	3																					
+SCENE_3_12_DESCRIPTION_2	Je gooit een stuk van je brood naar MARK. Die vangt het op en kijkt je dankbaar aan.																								
+SCENE_3_12_MARK_1	Dank je wel!																								
+0	0	1	2	3																					
+SCENE_3_13_EVA_1	Laten we gaan. Het wordt tijd om op zoek te gaan naar voedsel en drinkwater. Ik verwacht dat we pas in de nacht terug zullen zijn en ik ben bang dat we niet genoeg slaapplaatsen hebben... Dat zou vanavond een probleem kunnen worden?																								
+SCENE_3_13_CHOICE_1	Geen probleem! Ik slaap wel op de grond.	1	2	3																					
+SCENE_3_13_CHOICE_2	Ik verwacht wel een bed hoor.	1	2	3																					
+SCENE_3_13_CHOICE_3	Ik vind dat we moeten rouleren.	1	2	3																					
+SCENE_3_13_CHOICE_4	Kunnen we samen een nieuw bed maken?	1	2	3																					
+SCENE_3_13_EVA_2	Weet je wat, we dealen hier vannacht wel mee. Laten we gaan voordat het donker wordt?																								
+SCENE_3_13_DESCRIPTION_1	Je volgt EVA over het strand en daarna over wat vroeger de bosweg was. 																								
+0	0	1	2	3																					
+SCENE_3_14_DESCRIPTION_1	"We zijn op een open plek in het bos. Het beeld is weer zwart/wit/sepia. De open plek laat een archeologische opgraving zien. Een deel van de grond is afgegraven en er zijn twee mensen bezig met scheppen, beiteltjes en kwasten. De zon schijnt fel en de archeologen dragen hoeden en zonnebrillen, alles jaren ?50 stijl. 
+Aan de rand van de opgraving staat een tent waarin een lange schragen tafel staat met een uitstalling van fossiele vondsten.
+Een OUDE ARCHEOLOOG staat vorsend aan de rand van de opgravingen en overziet het gebeuren als de jeep, die we eerder zagen, aan komt rijden. 
+De JONGE ARCHEOLOOG met de Indiana Jones-hoed, springt uit de jeep. De OUDE ARCHEOLOOG roept hem bij zich. Hij wijst op een archeologische vondst die op de tafel ligt. DE OUDE ARCHEOLOOG geeft DE JONGE ARCHEOLOOG zijn vergrootglas vanuit zijn borstzak. Het is een mooi antiek zilveren instrument met langs de rand een paar elegante jugendstil-elementen. DE JONGE ARCHEOLOOG bekijkt de vondst met grote ernst door het vergrootglas. DE OUDE ARCHEOLOOG kijkt trots toe hoe de JONGE ARCHEOLOOG (zijn zoon) zijn werk doet. Dan slaat hij hem vaderlijk op de schouder en loopt weg. DE JONGE ARCHEOLOOG kijkt op en kijkt dan terug naar het vergrootglas. Een kleine glimlach. Hij stopt het vergrootglas in zijn eigen borstzak.."																								
+0	0	1	2	3																					
+SCENE_4_1_DESCRIPTION_1	Het ?pad? dat je met EVA afloopt, gaat dwars door struiken en langs dichte begroeiing. EVA loopt achter je. Wat ooit een uitgesleten weg is geweest, is door de natuur weer bijna volledig overwoekerd. Je hoort EVA van achter tegen je praten. Lange schaduwen laten zien dat de zon aan het dalen is. Het zal niet lang meer duren of de zon zal volledig achter de berg verdwijnen.																								
+SCENE_4_1_EVA_1	Er zijn eetbare bessen met een medicinale werking. Ze werken pijnstillend dus die moeten we verzamelen voor de gewonden hier. En gisteren heeft een paar van ons vallen gezet. We gaan kijken of daar al dieren in zitten.																								
+SCENE_4_1_PLAYER_1	Vallen?																								
+SCENE_4_1_EVA_2	Ja, we hopen konijn te kunnen eten vanavond.																								
+SCENE_4_1_PLAYER_2	Ok?																								
+SCENE_4_1_EVA_3	Eerst moeten we er ‚‚n vinden en dan slachten... Zie je dat zitten?																								
+SCENE_4_1_CHOICE_1	Geen probleem. 	1	2	3																					
+SCENE_4_1_CHOICE_2	Zeker niet. Ik vind het wreed.	1	2	3																					
+SCENE_4_1_CHOICE_3	Ik niet. Maar dapper dat jij dat wel kan!	1	2	3																					
+SCENE_4_1_CHOICE_4	Liever niet, maar het is eten of gegeten worden. 	1	2	3																					
+0	0	1	2	3																					
+SCENE_4_2_DESCRIPTION_1	"Dan kom je bij een splitsing in de weg terecht. Links is een lichte weg; de begroeiing is minder waardoor er meer zonlicht op het pad valt. Je ziet wat rode stipjes in de struiken.
+De rechter route is dicht begroeid en daardoor vrij donker. "																								
+SCENE_4_2_CHOICE_1	Links, dat ziet er veiliger uit 	1	2	3																					
+SCENE_4_2_CHOICE_2	Links, daar groeien vast bessen 	1	2	3																					
+SCENE_4_2_CHOICE_3	"Rechts; spannend!  "	1	2	3																					
+SCENE_4_2_CHOICE_4	"Rechts; daar zitten vast konijnen."	1	2	3																					
+SCENE_4_2_DESCRIPTION_2	Je vervolgt het linker pad. Het is inderdaad een licht pad met relatief weinig begroeiing. Verderop is een struik te zien met rode bessen. Je gaat er naartoe.																								
+SCENE_4_2_DESCRIPTION_3	Je vervolgt het rechter pad. Het is inderdaad een donker pad met relatief veel begroeiing. Verderop is een struik te zien met rode bessen. Je gaat er naartoe.																								
+0	0	1	2	3																					
+SCENE_4_3_DESCRIPTION_1	Je staat voor de bessenstruik. Het is een kleine struik met een beperkte hoeveelheid bessen. EVA komt bij je staan. 																								
+SCENE_4_3_EVA_1	Dit zijn de bessen. Het is dus de bedoeling dat je deze verzamelt en in je tas meeneemt voor de groep.																								
+SCENE_4_3_PLAYER_1	Prima.																								
+SCENE_4_3_DESCRIPTION_2	EVA geeft je een leeg vliegtuigmaaltijd-bakje. Dan loopt ze verder naar een struik verderop. Jij begint de bessen te plukken.  																								
+SCENE_4_3_CHOICE_1	Ik eet de bessen op.	1	2	3																					
+SCENE_4_3_CHOICE_2	Ik eet een paar bessen en bewaar de rest voor de mezelf. 	1	2	3																					
+SCENE_4_3_CHOICE_3	Ik eet een paar bessen en bewaar de rest voor de groep. 	1	2	3																					
+SCENE_4_3_CHOICE_4	Ik pluk de bessen voor de groep. 	1	2	3																					
+SCENE_4_3_DESCRIPTION_3	Je eet een paar bessen.																								
+SCENE_4_3_DESCRIPTION_4	"Je eet een paar bessen.
+Dan verzamel je de bessen in het bakje."																								
+SCENE_4_3_DESCRIPTION_5	Je verzamelt de bessen in het bakje.																								
+0	0	1	2	3																					
+SCENE_4_4_DESCRIPTION_1	EVA zit gehurkt langs het ?pad?.  Ze roept je.																								
+SCENE_4_4_EVA_1	Kom je helpen als je klaar bent?																								
+SCENE_4_4_DESCRIPTION_2	Je komt dichterbij. EVA is druk in de weer met takken en stukjes touw. 																								
+SCENE_4_4_PLAYER_1	Wat ben je aan het doen?																								
+SCENE_4_4_EVA_2	Dit was een val. Hij is helemaal kapot. Ik probeer hem te repareren want zo vangen we geen konijnen... 																								
+SCENE_4_4_CHOICE_1	Waar heb je vallen leren maken? 	1	2	3																					
+SCENE_4_4_CHOICE_2	Zal ik je even helpen?	1	2	3																					
+SCENE_4_4_CHOICE_3	Ik heb nog nooit een val gemaakt? 	1	2	3																					
+SCENE_4_4_CHOICE_4	Misschien kunnen we mijn tas gebruiken? 	1	2	3																					
+SCENE_4_4_EVA_3	Iemand heeft deze val expres kapot gemaakt?																								
+0	0	1	2	3																					
+SCENE_4_5_DESCRIPTION_1	De takken en stokjes touw vormen:																								
+SCENE_4_5_DESCRIPTION_2	LOGICA GAME 5																								
+0	0	1	2	3																					
+SCENE_4_6_DESCRIPTION_1	Ineens schiet EVA overeind en kijkt je angstig aan.																								
+SCENE_4_6_EVA_1	Hoorde je dat?																								
+SCENE_4_6_DESCRIPTION_2	"EVA kijkt geschrokken om zich heen. Nu hoor jij het ook; een schurend geluid. "																								
+SCENE_4_6_CHOICE_1	Ojee? wat was dat? 	1	2	3																					
+SCENE_4_6_CHOICE_2	Hallo!!! Is daar iemand??	1	2	3																					
+SCENE_4_6_CHOICE_3	Ik ga wel even kijken! 	1	2	3																					
+SCENE_4_6_CHOICE_4	Sst! Verroer geen vin?	1	2	3																					
+SCENE_4_6_EVA_2	We moeten stil zijn. We lopen gevaar. 																								
+0	0	1	2	3																					
+SCENE_4_7_DESCRIPTION_1	EVA schuift een tak opzij en tuurt tussen de bosjes naar een soort open plek. EVA ziet er nerveus uit. De zon is inmiddels achter de berg verdwenen en het begint een beetje donker te worden in het bos.																								
+SCENE_4_7_CHOICE_1	Wat is er aan de hand, Eva? 	1	2	3																					
+SCENE_4_7_CHOICE_2	Ik bescherm je wel.	1	2	3																					
+SCENE_4_7_CHOICE_3	Wat kan ik doen? 	1	2	3																					
+SCENE_4_7_CHOICE_4	Laat mij eens kijken.	1	2	3																					
+SCENE_4_7_EVA_1	Hij mag ons niet horen.																								
+SCENE_4_7_PLAYER_1	Wie?																								
+0	0	1	2	3																					
+SCENE_4_8_DESCRIPTION_1	"EVA schuift op en laat jou meekijken. Op een open plek tussen de struiken, op een paar meter afstand van waar jullie zitten, zie je een overwoekerde archeologische opgraving. Daar, naast een aarden muur, bevindt zich een klein kampement. Een vuurplaats, slaapplek met deken en een half vergane houten kist. De kist is ongeveer 1m bij 1m.
+Bij het vuur zit een jonge man. Hij slijpt een mes met een steen. Boven het vuur heeft hij een beest aan een spies.
+De jongeman heeft kleren met schutkleuren aan, vegen op zijn wangen en hij draagt stevige wandelschoenen. Het licht van het vuur valt op zijn gezicht. Hij ziet er uit als de ultieme survival-man. Maar als je goed kijkt, herken je de man. Het is het succesvolle type uit de businessclass!"																								
+SCENE_4_8_EVA_1	Ons konijn! Wat een klootzak. Hij jat onze vallen leeg.																								
+SCENE_4_8_PLAYER_1	Wie is dat?																								
+SCENE_4_8_EVA_2	Dat is Vincent. Hij zat in businessclass.																								
+SCENE_4_8_CHOICE_1	O ja, die succesvolle. 	1	2	3																					
+SCENE_4_8_CHOICE_2	O ja, die luidruchtige?	1	2	3																					
+SCENE_4_8_CHOICE_3	O ja, die rijke?	1	2	3																					
+0	0	1	2	3																					
+SCENE_4_9_EVA_1	Hij is onze vijand.																								
+SCENE_4_9_PLAYER_1	Hoezo?																								
+SCENE_4_9_EVA_2	Hij weigert zich aan onze regels te houden en houdt alle voorraden voor zichzelf. We hebben hem uit ons kamp gegooid.																								
+SCENE_4_9_CHOICE_1	Wat heeft hij dan gedaan? 	1	2	3																					
+SCENE_4_9_CHOICE_2	Misschien kan hij ons helpen.	1	2	3																					
+SCENE_4_9_CHOICE_3	Kom, wij vinden wel een ander konijn.	1	2	3																					
+SCENE_4_9_CHOICE_4	Laten we hier weggaan?	1	2	3																					
+SCENE_4_9_EVA_3	Hij is gevaarlijk.																								
+0	0	1	2	3																					
+SCENE_4_10_DESCRIPTION_1	VINCENT kijkt ineens verstoort op en kijkt je recht in de ogen.																								
+SCENE_4_10_EVA_1	Shit!																								
+SCENE_4_10_DESCRIPTION_2	Terwijl VINCENT overeind springt en naar je toe rent, maakt EVA zich snel uit de voeten. Voor je het door hebt, staat Vincent voor je en zet hij zijn mes tegen je keel.																								
+SCENE_4_10_VINCENT_1	Wat moet dat?																								
+SCENE_4_10_CHOICE_1	Als je dat mes weg doet, kunnen we praten!	1	2	3																					
+SCENE_4_10_CHOICE_2	Ik was op zoek naar een konijn?	1	2	3																					
+SCENE_4_10_CHOICE_3	Rustig maar! Ik keek alleen maar!	1	2	3																					
+SCENE_4_10_CHOICE_4	Niks!!! Doe me alsjeblieft geen pijn?	1	2	3																					
+0	0	1	2	3																					
+SCENE_4_11_EVA_1	Vincent, laat dat mes zakken.																								
+SCENE_4_11_VINCENT_1	Je weet dat je geen macht hebt over mij. Wie is dit?																								
+SCENE_4_11_PLAYER_1	Ik? ik ben een overlevende van de vliegramp. Net als jij.																								
+SCENE_4_11_VINCENT_2	Ik heb je nog niet eerder gezien.																								
+SCENE_4_11_DESCRIPTION_1	VINCENT laat zijn mes een klein beetje zakken en kijkt je verwilderd aan.																								
+SCENE_4_11_PLAYER_2	"Klopt. Ik lag bewusteloos op het strand. 
+Ik werd vanmorgen wakker."																								
+SCENE_4_11_VINCENT_3	En nu heb je je onderworpen aan kamp Eva... 																								
+SCENE_4_11_EVA_2	Doe eens even normaal zeg.																								
+SCENE_4_11_VINCENT_4	"Wat doe je hier Eva?
+Jij wilde mijn aanwezigheid niet langer om je heen.
+Waarom zoek je me dan op?"																								
+SCENE_4_11_EVA_3	Jij plundert onze vallen!																								
+SCENE_4_11_VINCENT_5	En jij kickt op de macht die je hebt over die arme drommels op het strand.																								
+SCENE_4_11_EVA_4	Voor de zoveelste keer: ik probeer te doen wat voor iedereen de kans op overleven vergroot.																								
+SCENE_4_11_VINCENT_6	Wat ben je toch begaan met iedereen. 																								
+SCENE_4_11_EVA_5	Nou, inderdaad.																								
+SCENE_4_11_VINCENT_7	Dan zou ik maar eens maken dat je wegkwam, anders laat ik niks van deze hier heel.																								
+SCENE_4_11_PLAYER_3	Ho! Wacht!																								
+SCENE_4_11_DESCRIPTION_2	EVA kijkt geschrokken. Ze maakt aanstalten om zich uit de voeten te maken. 																								
+SCENE_4_11_EVA_6	Ik ga de anderen halen en dan zing jij straks een toontje lager, reken daar maar op!																								
+SCENE_4_11_CHOICE_1	Eva! Laat me niet achter. 	1	2	3																					
+SCENE_4_11_CHOICE_2	Eva! Haal hulp!	1	2	3																					
+SCENE_4_11_CHOICE_3	Eva, maak je over mij maar geen zorgen. 	1	2	3																					
+SCENE_4_11_CHOICE_4	Kunnen we niet allemaal samenwerken?	1	2	3																					
+SCENE_4_11_DESCRIPTION_3	"EVA rent weg en verdwijnt achter de bosjes.
+VINCENT stopt zijn mes weg en gebaart dat je mee mag komen naar zijn kampement."																								
+0	0	1	2	3																					
+SCENE_4_12_DESCRIPTION_1	VINCENT gebaart dat je bij het vuur moet gaan zitten. Je doet wat hij wil. VINCENT haalt het konijn van het vuur en trekt er een stuk vlees vanaf. Hij geeft jou het vlees en begint zelf de rest af te kluiven. 																								
+SCENE_4_12_VINCENT_1	Sorry van daarnet. Ik hoop dat je niet al te erg geschrokken bent.																								
+SCENE_4_12_CHOICE_1	Je bent toch niks geks van plan?	1	2	3																					
+SCENE_4_12_CHOICE_2	Wat is er precies gebeurd?	1	2	3																					
+SCENE_4_12_CHOICE_3	Wij zijn nu samen een team, toch? 	1	2	3																					
+SCENE_4_12_CHOICE_4	Ik kan me voorstellen dat je haar niet mag.	1	2	3																					
+0	0	1	2	3																					
+SCENE_4_13_VINCENT_1	Ik ben sowieso niet echt een teamspeler, maar zoals zij me heeft behandeld?  																								
+SCENE_4_13_CHOICE_1	Vertel. Wat heeft ze gedaan?	1	2	3																					
+SCENE_4_13_CHOICE_2	Zij zei iets anders?	1	2	3																					
+SCENE_4_13_CHOICE_3	Misschien kan ik bemiddelen.	1	2	3																					
+SCENE_4_13_CHOICE_4	Jij zat zelf fout.	1	2	3																					
+0	0	1	2	3																					
+SCENE_4_14_VINCENT_1	Die mensen op het basiskamp zijn niet te vertrouwen. Het lijken allemaal zielepoten maar in wezen zijn ze alleen maar bezig met hun eigen gewin.																								
+SCENE_4_14_CHOICE_1	Heb je vaker vertrouwensissues?	1	2	3																					
+SCENE_4_14_CHOICE_2	Helemaal mee eens.	1	2	3																					
+SCENE_4_14_CHOICE_3	Waarom niet?	1	2	3																					
+SCENE_4_14_CHOICE_4	Waarom moet ik jou vertrouwen?	1	2	3																					
+0	0	1	2	3																					
+SCENE_4_15_VINCENT_1	Ik was ‚‚n van hen. Samen hebben we alle koffers verzameld. Het was zelfs mijn idee om op zoek te gaan voedsel en de voorraden zo veel mogelijk te sparen.																								
+SCENE_4_15_PLAYER_1	Ok.																								
+SCENE_4_15_VINCENT_2	Toen ik erachter kwam dat zij het grootste deel van de voorraden voor haar eigen gebruik bewaarde, was ik er klaar mee. Dan is het ieder voor zich wat mij betreft. 																								
+SCENE_4_15_CHOICE_1	Hoe bedoel je dat precies?	1	2	3																					
+SCENE_4_15_CHOICE_2	Lijkt me niet gemakkelijk, zo in je eentje.	1	2	3																					
+SCENE_4_15_CHOICE_3	Samen sta je sterker dan alleen.	1	2	3																					
+SCENE_4_15_CHOICE_4	Jij hebt hun vertrouwen beschaamd.	1	2	3																					
+0	0	1	2	3																					
+SCENE_4_16_VINCENT_1	Als ik ergens niet tegen kan, dan is het onbetrouwbaarheid. Wees gewoon eerlijk. Dat ben ik ook. Als ik iets zeg, dan bedoel ik het ook precies zo! Dat raakt me zo diep. Dan ben ik meteen helemaal klaar met iemand.																								
+SCENE_4_16_PLAYER_1	Snap ik. Ik kan zelf helemaal niet tegen?																								
+SCENE_4_16_CHOICE_1	ego‹sme	1	2	3																					
+SCENE_4_16_CHOICE_2	afhankelijkheid	1	2	3																					
+SCENE_4_16_CHOICE_3	betutteling	1	2	3																					
+SCENE_4_16_CHOICE_4	slachtoffergedrag	1	2	3																					
+0	0	1	2	3																					
+SCENE_4_17_VINCENT_1	Eva kan nu eindelijk de baas spelen. Als stewardess was ze natuurlijk bediende. Hier heeft zij de macht. Ze heeft dus helemaal geen behoefte om hier weg te komen. 																								
+SCENE_4_17_CHOICE_1	Ze zei dat ze weg wilde...	1	2	3																					
+SCENE_4_17_CHOICE_2	Weet je zeker dat ze niet weg wil?	1	2	3																					
+SCENE_4_17_CHOICE_3	Wat zei ze precies tegen jou?	1	2	3																					
+SCENE_4_17_CHOICE_4	Ik kan me niet voorstellen dat ze wil blijven. 	1	2	3																					
+0	0	1	2	3																					
+SCENE_4_18_VINCENT_1	Ze hebben de enige zendmast op dit eiland onklaar gemaakt.																								
+SCENE_4_18_PLAYER_1	Wat?																								
+SCENE_4_18_VINCENT_2	Boven op de berg staat een zendmast. Die heeft zij kapot gemaakt.																								
+SCENE_4_18_PLAYER_2	Weet je dat zeker?																								
+SCENE_4_18_VINCENT_3	"Geloof me nou maar.
+Maar ik denk dat ik hem kan repareren, als ik de juiste spullen heb. We moeten contact maken met het vaste land en dan regelen we?"																								
+SCENE_4_18_CHOICE_1	Voedsel!	1	2	3																					
+SCENE_4_18_CHOICE_2	Water!	1	2	3																					
+SCENE_4_18_CHOICE_3	Een boot!	1	2	3																					
+SCENE_4_18_VINCENT_4	Een helikopter natuurlijk. 																								
+0	0	1	2	3																					
+SCENE_4_19_VINCENT_1	"Ik heb dit eiland verkend en het is mij duidelijk dat hier wetenschappers hebben gezeten.
+Lang geleden hoor, want de boel is behoorlijk vergaan.
+Kom, we gaan een kijkje nemen daar boven. "																								
+SCENE_4_19_CHOICE_1	Yes, laten we gaan. 	1	2	3																					
+SCENE_4_19_CHOICE_2	Ehm? nou ok..	1	2	3																					
+SCENE_4_19_CHOICE_3	Ik heb niet echt een keuze geloof ik.	1	2	3																					
+0	0	1	2	3																					
+SCENE_4_20_VINCENT_1	"Als je met mij mee gaat, laat ik je alles zien.
+Die wetenschappers deden archeologische opgravingen lijkt het. Enfin, er zijn nog sporen te vinden. "																								
+SCENE_4_20_PLAYER_1	Sporen?																								
+SCENE_4_20_DESCRIPTION_1	VINCENT klopt tegen de oude houten kist waar hij naast zit.																								
+SCENE_4_20_VINCENT_2	Deze kisten bijvoorbeeld. Ze werden op dit eiland gedropt om de mensen hier te voorzien van instrumenten en proviand.																								
+SCENE_4_20_DESCRIPTION_2	VINCENT wenkt je dichterbij te komen.																								
+SCENE_4_20_VINCENT_3	Kijk maar. Er zit nu niets meer van waarde in. 																								
+SCENE_4_20_DESCRIPTION_3	"Je kijkt in de kist. De kist is half vergaan. Er liggen bladeren, troep en stof in. Terwijl je in de kist zoekt, kom je een leeg blikje bonen tegen en een doos sunlight-zeep.
+Onderin ligt een gedeukt papieren doosje. Je pakt het doosje en opent het. In het doosje zit een kompas. Het kompas is kapot, maar misschien kun je het repareren. Hier ontvouwt zich "																								
+SCENE_4_20_DESCRIPTION_4	LOGICA GAME 6																								
+0	0	1	2	3																					
+SCENE_4_21_DESCRIPTION_1	Het kompas werkt weer. De rode wijzer draait rustig naar de N.																								
+SCENE_4_21_VINCENT_1	Wow, hij doet het weer!																								
+SCENE_4_21_CHOICE_1	Ik geef het kompas aan Vincent. 	1	2	3																					
+SCENE_4_21_CHOICE_2	Ik hou het kompas voor mezelf.	1	2	3																					
+SCENE_4_21_CHOICE_3	Ik bewaar het kompas voor Eva.	1	2	3																					
+SCENE_4_21_CHOICE_4	Ik laat het kompas in de kist.	1	2	3																					
+SCENE_4_21_DESCRIPTION_2	Je geeft het kompas aan VINCENT.																								
+SCENE_4_21_VINCENT_2	Dank je.																								
+SCENE_4_21_DESCRIPTION_3	Je stopt het kompas weg.																								
+SCENE_4_21_PLAYER_1	Je weet nooit wanneer ie van pas komt.																								
+SCENE_4_21_DESCRIPTION_4	Je laat het kompas liggen.																								
+SCENE_4_21_PLAYER_2	Heb ik niet nodig?																								
+0	0	1	2	3																					
+SCENE_4_22_VINCENT_1	Ik ga de berg op. Daar liggen vast meer van die kisten. 																								
+SCENE_4_22_CHOICE_1	Hoe weet jij dat? 	1	2	3																					
+SCENE_4_22_CHOICE_2	Waarom vertrouw je mij wel?	1	2	3																					
+0	0	1	2	3																					
+SCENE_4_23_VINCENT_1	Ik wil van dit eiland af. En daar heb ik alles voor over. En als ik die zendmast wil repareren kan ik wel hulp gebruiken. 																								
+SCENE_4_23_CHOICE_1	Ik heb twee linker handen?  	1	2	3																					
+SCENE_4_23_CHOICE_2	Ik ben een super hulp!	1	2	3																					
+SCENE_4_23_CHOICE_3	Ik kan hem ook in mijn eentje repareren.	1	2	3																					
+SCENE_4_23_CHOICE_4	Met zijn twee‰n gaat dat lukken.	1	2	3																					
+0	0	1	2	3																					
+SCENE_4_24_VINCENT_1	"Nou, pak je spullen.
+Ik wil niet dat die bedriegers hier komen rondsnuffelen."																								
+SCENE_4_24_DESCRIPTION_1	Op de grond licht iets ondefinieerbaars dat glinstert in het licht van het vuur. Terwijl je voet er langs gaat, valt er een stukje modder vanaf en zien we dat het de rand van een oud, kapot vergrootglas is. Je doet een stap terug en raapt het op. Het is verroest en onder de aarde. Maar heel duidelijk zijn de elegante jugendstil-elementen te zien. Gekrijs van een meeuw op de achtergrond. Je stopt de rand bij je en volgt VINCENT.																								
+0	0	1	2	3																					
+SCENE_4_25_DESCRIPTION_1	"We zien de archeologische opgraving middenin het bos in zwart/ wit/ sepia. De opgraving is netjes aan kant. De tent en de jeep staan er. De OUDE ARCHEOLOOG zit comfortabel achterover  op een canvas klapstoel. Hij kijkt tevreden toe hoe DE JONGE ARCHEOLOOG een van de kisten openmaakt met een koevoet. Dan haalt hij blij een prachtig glimmend koperen theodoliet (hoekmeetinstrument op hoge poten) uit de kist.
+Hij zet het instrument naast zich neer terwijl iemand anders een camera tevoorschijn haalt. DE OUDE ARCHEOLOOG komt naar de JONGE ARCHEOLOOG staan. Ze poseren vrolijk met het apparaat tegen de achtergrond van de opgraving/ tent. "																								
+0	0	1	2	3																					
+SCENE_5_1_DESCRIPTION_1	"Je volgt Vincent door het bos. Je ziet zijn rug voor je. Hij baant zich een weg door de bomen en struiken. Het bos loopt omhoog, dus je moet flink klimmen. Je hoort je eigen, zware ademhaling. 
+Dan stopt VINCENT en draait hij zich om. Voor hem zie je nu een steile rotswand die weelderig begroeit is."																								
+SCENE_5_1_VINCENT_1	We zijn er? De lift!																								
+SCENE_5_1_DESCRIPTION_2	"VINCENT duwt een struik opzij en laat je zien wat hij bedoelt.
+Achter de struik zie je een metalen cabine. De cabine bestaat uit aan elkaar geschroefde roosters en is groot genoeg voor twee volwassenen. Het metaal is verroest en half overgroeid. "																								
+SCENE_5_1_VINCENT_2	Deze bad boy gaat ons naar boven brengen.																								
+SCENE_5_1_DESCRIPTION_3	Als je naar boven kijkt, zie je dat de metalen cabine aan de bovenkant met een lange metalen kabel verbonden is met haken die langs de bergwand naar boven leiden.																								
+SCENE_5_1_PLAYER_1	Weet je zeker dat dat veilig is?   																								
+SCENE_5_1_VINCENT_3	Nee. Maar hier blijven is dat ook niet. 																								
+SCENE_5_1_CHOICE_1	Vanwege Eva?	1	2	3																					
+SCENE_5_1_CHOICE_2	Vanwege het water- en voedseltekort?	1	2	3																					
+SCENE_5_1_VINCENT_4	Je wilt hier toch ook wegkomen of niet?																								
+SCENE_5_1_PLAYER_2	Natuurlijk wil ik dat.																								
+0	0	1	2	3																					
+SCENE_5_2_DESCRIPTION_1	VINCENT probeert de deur van de lift open te trekken, maar deze zit vast.																								
+SCENE_5_2_CHOICE_1	Laat mij maar even? 	1	2	3																					
+SCENE_5_2_CHOICE_2	Ik help je wel even. 	1	2	3																					
+SCENE_5_2_CHOICE_3	Misschien moet je iets van een stok gebruiken?	1	2	3																					
+SCENE_5_2_DESCRIPTION_2	Dan lukt het ineens. VINCENT kijkt je triomfantelijk aan.																								
+SCENE_5_2_VINCENT_1	Waar een wil is?																								
+0	0	1	2	3																					
+SCENE_5_3_DESCRIPTION_1	VINCENT houdt de deur voor je open. Je gaat naar binnen. 																								
+SCENE_5_3_VINCENT_1	OK, en nu omhoog? 																								
+SCENE_5_3_DESCRIPTION_2	VINCENT grijpt een dikke metalen ketting die in de lift naar beneden hangt. Hij kijkt je afwachtend aan. 																								
+SCENE_5_3_VINCENT_2	Deze lift krijg je in je eentje niet omhoog. Er zijn twee mensen voor nodig.																								
+SCENE_5_3_CHOICE_1	Je hebt me gewoon nodig.	1	2	3																					
+SCENE_5_3_CHOICE_2	Ik kan het wel alleen af hoor.	1	2	3																					
+SCENE_5_3_CHOICE_3	Samen staan we sterk.	1	2	3																					
+SCENE_5_3_DESCRIPTION_3	VINCENT laat je erbij. Samen trekken jullie de lift hand voor hand naar boven. 																								
+0	0	1	2	3																					
+SCENE_5_4_DESCRIPTION_1	De lift is gestopt. Je bent boven aangekomen. Je bevindt je nu boven op de vulkaan. Je hebt een wijds uitzicht over het eiland en je kunt de krater inkijken.  De zon is al laag en kleurt het eiland rood. De lift is aangekomen bij een metalen platform dat tegen de vulkaanwand is gebouwd. Naast het platform staat een houten schuurtje met een zendmast. De zendmast is gebroken en hangt scheef over g=het gebouwtje. Je stapt op het platform.																								
+SCENE_5_4_PLAYER_1	Wat een uitzicht!																								
+SCENE_5_4_VINCENT_1	Dit is geen toeristisch tripje.																								
+SCENE_5_4_PLAYER_2	"Dat snap ik.
+Die zendmast ziet er behoorlijk kapot uit."																								
+SCENE_5_4_VINCENT_2	Met het juiste gereedschap is ie te fiksen.																								
+SCENE_5_4_CHOICE_1	Gereedschap en kennis bedoel je.	1	2	3																					
+SCENE_5_4_CHOICE_2	Gereedschap en kracht bedoel je.	1	2	3																					
+SCENE_5_4_CHOICE_3	Gereedschap en een radio bedoel je.	1	2	3																					
+SCENE_5_4_VINCENT_3	Uiteraard.																								
+0	0	1	2	3																					
+SCENE_5_5_VINCENT_1	Op de dag dat we zijn neergestort, stond die zendmast nog  overeind. Dat heb ik gezien vanaf het strand.																								
+SCENE_5_5_CHOICE_1	Weet je dat zeker?	1	2	3																					
+SCENE_5_5_CHOICE_2	En Eva heeft dat gedaan?	1	2	3																					
+SCENE_5_5_VINCENT_2	Ja, dat weet ik zeker. Vertrouw je me soms niet?																								
+SCENE_5_5_CHOICE_3	Volgens Eva heb jij dat gedaan.	1	2	3																					
+SCENE_5_5_VINCENT_3	Eva liegt. Ik ben hier nog niet eerder geweest. Ik was namelijk alleen nadat ze me hebben verbannen, weet je nog? En in je eentje kunt je hier niet komen. Vertrouw je me soms niet?																								
+0	0	1	2	3																					
+SCENE_5_6_PLAYER_1	Zo bedoelde ik het niet. Maar?																								
+SCENE_5_6_CHOICE_1	Eva kwam erg overtuigend over.	1	2	3																					
+SCENE_5_6_CHOICE_2	jij hebt me bedreigd met een mes.	1	2	3																					
+SCENE_5_6_VINCENT_1	"Het doet er niet toe. Ik ga die zendmast repareren en de boel aan de praat krijgen. Ik wil hier weg!
+Wat jij doet interesseert me niet."																								
+SCENE_5_6_DESCRIPTION_1	"VINCENT loopt naar het houten gebouwtje. Je volgt hem. De deur is opengebroken.
+Je gaat achter VINCENT aan naar binnen. Er is een raam dat uitkijkt over het platform. Onder het raam staat een tafel met erachter een oude houten bureaustoel.  Op de grond naast de kast staat een grote, ongeopende kist met het overheidslogo erop. Verder staat er een archiefkast.
+VINCENT loopt naar de kast. Hij doorzoekt de dossiers die daar staan."																								
+SCENE_5_6_VINCENT_2	Wat een troep. Hier hebben we niks aan.																								
+SCENE_5_6_DESCRIPTION_2	Het sein gebouwtje is duidelijk in lange tijd niet gebruikt. Alles ligt onder een dikke laag stof en er zijn talloze spinnenwebben. Planken zitten los en laten licht binnen. Stofdeeltjes dwarrelen in de lichtbanen die door de kieren naar binnen dringen.																								
+SCENE_5_6_VINCENT_3	Verdomme! Ik wil hier weg!																								
+0	0	1	2	3																					
+SCENE_5_7_DESCRIPTION_1	Op het bureau zie je, half verstopt onder een paar oude kranten, een oude radio met transmitter. Je loopt naar de radio en veegt stof weg. De radio heeft een aantal grote draaiknoppen, een paar kleintjes en een viertal schermpjes met wijzertjes. Een koptelefoon en microfoon liggen naast de radio op het bureau.																								
+SCENE_5_7_VINCENT_1	Die doet het niet.																								
+SCENE_5_7_CHOICE_1	Hoe weet jij dat?	1	2	3																					
+SCENE_5_7_CHOICE_2	Laat mij eens proberen.	1	2	3																					
+SCENE_5_7_CHOICE_3	Oh, ok. 	1	2	3																					
+SCENE_5_7_VINCENT_2	"Omdat ik hier al ben geweest, nou goed?
+Je ziet toch zo dat dat ding kapot is?!"																								
+SCENE_5_7_VINCENT_3	O, jij denkt dat jij de boel wel weer even fikst. Je ziet toch zo dat dat ding kapot is?!																								
+SCENE_5_7_DESCRIPTION_2	LOGICA GAME 7																								
+0	0	1	2	3																					
+SCENE_5_8_DESCRIPTION_1	Het is je gelukt om de radio aan te krijgen. Een lampje brandt zwakjes. Het wijzertje op het grootste scherm schiet aan.																								
+SCENE_5_8_VINCENT_1	"Holy fuck! Je hebt ?m aan de praat gekregen! 
+Kijk of je contact kan maken! "																								
+SCENE_5_8_CHOICE_1	Maar de mast is toch kapot?	1	2	3																					
+SCENE_5_8_CHOICE_2	Hello! Can anybody hear me?	1	2	3																					
+SCENE_5_8_CHOICE_3	Probeer jij het maar.	1	2	3																					
+SCENE_5_8_DESCRIPTION_2	Op dat moment sterft het lampje uit en zakt het wijzertje terug naar 0.																								
+SCENE_5_8_VINCENT_2	Nee!																								
+SCENE_5_8_PLAYER_1	Shit!!!																								
+SCENE_5_8_VINCENT_3	Laat mij eens kijken... 																								
+SCENE_5_8_DESCRIPTION_3	VINCENT bekijkt de radio en volgt een snoer dat naar onder het bureau leidt. Daar, achter wat lege zakken, vindt hij een accu.																								
+SCENE_5_8_PLAYER_2	Een accu!																								
+SCENE_5_8_VINCENT_4	Yep.																								
+SCENE_5_8_CHOICE_4	Maar hij doet het dus nog wel!	1	2	3																					
+SCENE_5_8_CHOICE_5	Zonder accu is ie waardeloos.	1	2	3																					
+SCENE_5_8_VINCENT_5	Ja, maar we hebben dus een volle accu nodig. Anders doet ie het niet.																								
+SCENE_5_8_VINCENT_6	Precies. We hebben dus een volle accu nodig. Anders doet ie het niet.																								
+0	0	1	2	3																					
+SCENE_5_9_VINCENT_1	En zonder zendmast zou ons signaal ook niet veel verder dan deze vulkaan zijn gekomen. 																								
+SCENE_5_9_PLAYER_1	Goed, we zitten dus met een radio die het lijkt te doen maar een kapotte zendmast en een lege accu.																								
+SCENE_5_9_VINCENT_2	Daar lijkt het op.																								
+SCENE_5_9_CHOICE_1	Laten we een accu zoeken.	1	2	3																					
+SCENE_5_9_CHOICE_2	Laten we de zendmast repareren.	1	2	3																					
+SCENE_5_9_CHOICE_3	Laten we eten en drinken zoeken. 	1	2	3																					
+SCENE_5_9_CHOICE_4	Laten we de anderen vragen om hulp.	1	2	3																					
+SCENE_5_9_VINCENT_3	Goed idee. Laten we dat doen!																								
+SCENE_5_9_VINCENT_4	Nooit. Je zult het met mij moeten doen? 																								
+0	0	1	2	3																					
+SCENE_5_10_DESCRIPTION_1	VINCENT schopt tegen de grote houten kist. 																								
+SCENE_5_10_VINCENT_1	We beginnen hier.																								
+SCENE_5_10_DESCRIPTION_2	Je bekijkt de kist die voorzien is van een groot hangslot.																								
+SCENE_5_10_VINCENT_2	Oef. Dat slot krijg ik niet zomaar open? 																								
+SCENE_5_10_CHOICE_1	Ik ga de sleutel zoeken. 	1	2	3																					
+SCENE_5_10_CHOICE_2	Help me even het deksel lostrekken.	1	2	3																					
+SCENE_5_10_CHOICE_3	Ik ga een breekijzer zoeken. 	1	2	3																					
+SCENE_5_10_VINCENT_3	Ik ben meer van grof geweld.																								
+SCENE_5_10_VINCENT_4	Grof geweld. Daar hou ik van?																								
+0	0	1	2	3																					
+SCENE_5_11_DESCRIPTION_1	VINCENT trapt tegen de kist. Dan pakt hij de bureaustoel en beukt hiermee tegen de kist. VINCENT stopt even om op adem te komen. Dan schop jij een keer tegen het hangslot. Dat springt open.																								
+SCENE_5_11_VINCENT_1	Sesam open u! Goed gedaan!																								
+SCENE_5_11_DESCRIPTION_2	"Samen trekken jullie het deksel van de kist.
+In de kist ligt een stapel dekens en een doos met brieven. 
+
+Je pakt een brief van de stapel. Vincent bekijkt de andere papieren. In de hoek is het overheidslogo te zien en de aanhef is formeel. Je bekijkt alleen de eerste paar regels.
+
+Betreft: ontslagneming met directe ingang
+
+L.S
+Bij dezen wil ik u laten weten dat ik per direct mijn arbeidscontract ontbindt?.
+
+Je laat de brief voor wat hij is en zoekt verder in de kist.
+"																								
+SCENE_5_11_VINCENT_2	Hier hebben we ook niks aan...																								
+SCENE_5_11_DESCRIPTION_3	"Je haalt de dekens uit de kist en dan stuit je op een metalen kistje. Het kistje lijkt op een kluisje en heeft op het deksel het overheidslogo.
+VINCENT komt naast je staan."																								
+SCENE_5_11_VINCENT_3	Maak open!																								
+SCENE_5_11_DESCRIPTION_4	"Het doosje kan niet open. Er zit een ronde gleuf in het deksel, zie je nu. Het is een cirkel met een dikkere uitsparing aan een kant.
+De vorm van de cirkel en de uitsparing is wat grillig en binnen de cirkel is het hout hol."																								
+SCENE_5_11_PLAYER_1	Wacht eens even?																								
+SCENE_5_11_DESCRIPTION_5	Je pakt de rand van het vergrootglas, dat je in de opgraving hebt gevonden. De rand past precies in de gleuf.																								
+SCENE_5_11_VINCENT_4	What the fuck?																								
+SCENE_5_11_DESCRIPTION_6	Je kunt de rand in de gleuf draaien maar verder gebeurt er niks. Je haalt de rand weer uit de gleuf.																								
+SCENE_5_11_VINCENT_5	Hoe kom jij aan dat ding?																								
+SCENE_5_11_PLAYER_2	Gevonden. Die lag vlakbij jouw kampement.																								
+SCENE_5_11_VINCENT_6	Wacht eens even? Dat ding om je nek?																								
+SCENE_5_11_DESCRIPTION_7	Je doet de ketting af en drukt het amulet op de plek in het midden van de vergrootglas rand. Het past precies. Het vergrootglas is weer ?compleet?, zij het kapot.																								
+SCENE_5_11_VINCENT_7	Wat is hier aan de hand? Hoe kom je aan dat ding?																								
+SCENE_5_11_PLAYER_3	Ik heb dit amulet gekregen van een man in het vliegtuig.																								
+SCENE_5_11_VINCENT_8	Wat voor man?																								
+SCENE_5_11_PLAYER_4	Geen idee. Een man die naast me zat. Hij gaf het me vlak voordat we neerstorten.																								
+SCENE_5_11_VINCENT_9	Beetje erg toevallig allemaal, of niet?																								
+SCENE_5_11_CHOICE_1	Dit amulet helpt ons misschien weg te komen.	1	2	3																					
+SCENE_5_11_CHOICE_2	Je moet me geloven.	1	2	3																					
+SCENE_5_11_CHOICE_3	Geloof me of niet.	1	2	3																					
+0	0	1	2	3																					
+SCENE_5_12_DESCRIPTION_1	Je drukt het vergrootglas weer op de ronde gleuf in het kistje. Het ronde glas drukt nu het holle paneel naar binnen. Als je nu de rand draait, klikt het deksel open. Het zit nu alleen nog vast met een klein haakje. VINCENTS gezicht wordt rood en hij grist het kistje uit je handen en houdt die dreigend onder je neus.																								
+SCENE_5_12_VINCENT_1	"Wat weet jij?
+Ben je hier al eens geweest?!"																								
+SCENE_5_12_PLAYER_1	Natuurlijk niet!																								
+SCENE_5_12_VINCENT_2	Hoe komt het dan dat dit amulet precies in dat slot past?																								
+SCENE_5_12_PLAYER_2	Ik heb geen idee!																								
+SCENE_5_12_VINCENT_3	Ik weet niet wat je precies voor me verbergt, maar ik denk dat jij weet hoe we van dit eiland afkomen.																								
+SCENE_5_12_PLAYER_3	Echt niet! Ik kan dit ook niet verklaren maar ik zeg je dat ik te vertrouwen ben.																								
+SCENE_5_12_VINCENT_4	Jij speelt zeker onder ‚‚n hoedje met Eva en de anderen van het basiskamp.																								
+SCENE_5_12_CHOICE_1	Ik sta aan jouw kant!	1	2	3																					
+SCENE_5_12_CHOICE_2	Ik sta aan niemands kant!	1	2	3																					
+SCENE_5_12_CHOICE_3	Ik sta aan de kant van iedereen!	1	2	3																					
+0	0	1	2	3																					
+SCENE_5_13_DESCRIPTION_1	"VINCENT doet het haakje van het deksel. In het kistje ligt een sleutelbos, zo zie je.
+Jullie staren er beiden een moment naar. Dan haalt VINCENT de sleutelbos uit het kistje en bungelt die triomfantelijk voor je gezicht."																								
+SCENE_5_13_VINCENT_1	Wel wel wel? En jij wist zeker van niks?																								
+SCENE_5_13_PLAYER_1	"Echt niet!
+Ik had geen idee!"																								
+SCENE_5_13_VINCENT_2	"Jij bent niet te vertrouwen. Jij wist precies wat er in dat kistje zat! Maar nu ben ik je te slim af.
+Deze sleutels gaan me helpen van dit ellendige eiland weg te komen. Jij zoekt het maar uit verder!"																								
+SCENE_5_13_DESCRIPTION_2	VINCENT verlaat het gebouwtje en laat je alleen achter.																								
+SCENE_5_13_PLAYER_2	Shit!																								
+SCENE_5_13_CHOICE_1	Ik ga achter hem aan.	1	2	3																					
+SCENE_5_13_CHOICE_2	Ik ga terug naar Eva.	1	2	3																					
+SCENE_5_13_CHOICE_3	Ik ga alleen verder.	1	2	3																					
+SCENE_5_13_DESCRIPTION_3	Je loopt het gebouwtje uit. Langs de krater loopt een smal pad dat langs de bergwand leidt. De afgrond is duizelingwekkend. Een ander pad is er echter niet. Je volgt het pad naar beneden. Een meeuw vliegt voorbij.																								
+0	0	1	2	3																					
+SCENE_5_14_DESCRIPTION_1	"We zien het pad langs de afgrond in zwart/wit/sepia.
+Aan het eind van het pas is een soort bunker te zien. Het schemert. Het licht binnen is aan en schijnt door een klein raam en twee openslaande deuren naar buiten.
+Een paar schimmen met archeologen hoeden en gaslantaarns in de hand loopt over het pad naar de bunker. Ze gaan de bunker binnen. "																								
+0	0	1	2	3																					
+SCENE_5_15_DESCRIPTION_1	"In de bunker zit de JONGE ARCHEOLOOG aan een klein bureau in een ruimte die dienst lijkt te doen als keuken, slaapplaats en woonkamer tegelijk. De twee andere archeologen nemen op de achtergrond plaats op een bed. Ze gaan kaarten. 
+Op het bureau staat een oude typemachine met daarin papier met het overheidslogo. De JONGE ARCHEOLOOG steekt zijn eigen gaslantaarn aan en haalt een foto uit zijn binnenzak. We zien een zwart-wit foto van hem met een prachtige jonge vrouw en baby. De JONGE ARCHEOLOOG bekijkt zijn dochtertje door het vergrootglas en slikt. 
+DE OUDE ARCHEOLOOG (zijn vader) komt achter hem staan en de JONGE ARCHEOLOOG reageert betrapt. Hij stopt de foto snel weg. DE OUDE ARCHEOLOOG overhandigt de JONGE ARCHEOLOOG een ingelijste foto van drie generaties mannen aan de rand van een opgraving; een oude man, leunend op een stok, de OUDE ARCHEOLOOG en de JONGE ARCHEOLOOG. DE JONGE ARCHEOLOOG lacht ongemakkelijk."																								
+0	0	1	2	3																					
+SCENE_6_1_DESCRIPTION_1	"Je loopt over het smalle paadje langs de kraterwand die uitkomt op een soort plat vlak.
+Van hieraf kun je net een stukje van het strand zien.
+Ineens zie je een lichtflits vanaf het strand.
+Dan volgen er nog twee kort achter elkaar."																								
+SCENE_6_1_PLAYER_1	Het basiskamp. Ze seinen.																								
+SCENE_6_1_CHOICE_1	Ik moet terug seinen.	1	2	3																					
+SCENE_6_1_CHOICE_2	Ik vertrouw niemand meer.	1	2	3																					
+SCENE_6_1_CHOICE_3	Daar moet ik naartoe lopen.	1	2	3																					
+0	0	1	2	3																					
+SCENE_6_2_DESCRIPTION_1	"Als je je omdraait, zie je dat in de bergwand achter je, die volledig overgroeid is, een oude bunker zit. Het schemert en de bunker is lastig te zien door de schaduwen en de planten die eroverheen groeien.
+Je komt dichterbij en ziet dat een van twee openslaande deuren op een kier staat."																								
+SCENE_6_2_CHOICE_1	Ik ga naar binnen.	1	2	3																					
+SCENE_6_2_CHOICE_2	"Ik ga niet naar binnen. 	"	1	2	3																					
+SCENE_6_2_DESCRIPTION_2	Je duwt de deur open.																								
+SCENE_6_2_DESCRIPTION_3	De deur gaat vanzelf een stukje open.																								
+0	0	1	2	3																					
+SCENE_6_3_DESCRIPTION_1	Binnen is het donker. Ineens knipt er een licht aan dat schijnt in je gezicht. Verblindend licht.																								
+SCENE_6_3_VINCENT_1	Natuurlijk moest je achter me aankomen.																								
+SCENE_6_3_PLAYER_1	Vincent?																								
+SCENE_6_3_VINCENT_2	Jij wist natuurlijk dat die sleutels van deze deur waren. En je bent me gevolgd.																								
+SCENE_6_3_CHOICE_1	Ik moet die zaklamp te pakken krijgen.	1	2	3																					
+SCENE_6_3_CHOICE_2	Ik moet hier weg.	1	2	3																					
+SCENE_6_3_CHOICE_3	Ik moet hem overtuigen dat ik te vertrouwen ben.	1	2	3																					
+0	0	1	2	3																					
+SCENE_6_4_DESCRIPTION_1	Je wordt ineens naar binnen gesleurd. De zaklamp schiet in het rond. Je blijkt in een garage te staan. In de garage staat een kast met gereedschappen en het jaren ?50 pick up jeepje.																								
+SCENE_6_4_VINCENT_1	Doe je handen op je rug. Ik ga je vastbinden zodat ik geen last meer van je heb. 																								
+SCENE_6_4_CHOICE_1	Laat me je helpen, je kunt het niet alleen.	1	2	3																					
+SCENE_6_4_CHOICE_2	Eva en de anderen zijn al onderweg.	1	2	3																					
+SCENE_6_4_CHOICE_3	Dat gelul over vertrouwen steeds. Jij bent zelf niet te vertrouwen!	1	2	3																					
+SCENE_6_4_VINCENT_2	Ik ga niet met je in discussie.																								
+0	0	1	2	3																					
+SCENE_6_5_DESCRIPTION_1	VINCENT richt de zaklamp op het mes dat hij in zijn andere hand heeft.																								
+SCENE_6_5_VINCENT_1	Draai je om met je handen op je rug!																								
+SCENE_6_5_CHOICE_1	Ik schop het mes uit zijn hand. 	1	2	3																					
+SCENE_6_5_CHOICE_2	Ik draai me om.	1	2	3																					
+SCENE_6_5_DESCRIPTION_2	Je schopt het mes uit VINCENTS hand. De zaklamp zwaait door de lucht en valt op de grond bij je voeten.																								
+SCENE_6_5_VINCENT_2	Au! Shit!!																								
+SCENE_6_5_DESCRIPTION_3	"Je draait je om en ziet dan in de kast voor je een koevoet liggen. Je grijpt de koevoet en haalt er meteen mee uit naar VINCENT. De zaklamp zwaait door de lucht en valt op de grond bij je voeten.
+"																								
+0	0	1	2	3																					
+SCENE_6_6_DESCRIPTION_1	Je pakt de zaklamp van de grond en schijnt op VINCENT. Zijn hand bloedt. Het ziet er akelig uit. VINCENTS gezicht is vertrokken van de pijn.																								
+SCENE_6_6_VINCENT_1	Mijn hand! Dit is niet goed? Je moet me helpen!																								
+SCENE_6_6_CHOICE_1	Sorry! Dit was niet de bedoeling.	1	2	3																					
+SCENE_6_6_CHOICE_2	Die moet verbonden worden.	1	2	3																					
+SCENE_6_6_CHOICE_3	Had je me maar niet moeten bedreigen.	1	2	3																					
+SCENE_6_6_CHOICE_4	Val dood jij.	1	2	3																					
+SCENE_6_6_VINCENT_2	Je kunt me hier niet alleen laten!																								
+0	0	1	2	3																					
+SCENE_6_7_DESCRIPTION_1	VINCENT zakt door zijn knie‰n op de grond en kreunt.																								
+SCENE_6_7_VINCENT_2	We moeten hier weg. Zo snel mogelijk.																								
+SCENE_6_7_CHOICE_1	Ik ga op zoek naar verband.	1	2	3																					
+SCENE_6_7_CHOICE_2	Ik ga op zoek naar water.	1	2	3																					
+SCENE_6_7_CHOICE_3	Ik ga op zoek naar een accu voor de radio.	1	2	3																					
+SCENE_6_7_CHOICE_4	Ik ga op zoek naar gereedschap voor de zendmast.	1	2	3																					
+0	0	1	2	3																					
+SCENE_6_8_DESCRIPTION_1	"Je schijnt met je zaklamp door de ruimte. Je loopt naar de jeep toe. Je opent de motorkap en je schijnt naar de motor.
+Je ziet een verroeste motor, leidingen, tanks en een accu!
+VINCENT zit nog altijd achter je, op de grond met zijn bloedende hand."																								
+SCENE_6_8_DESCRIPTION_2	Je buigt je over de accu heen. Om de accu netjes te verwijderen moet je een logica puzzel oplossen.																								
+SCENE_6_8_DESCRIPTION_3	LOGICA GAME 8																								
+0	0	1	2	3																					
+SCENE_6_9_DESCRIPTION_1	Je tilt de accu voorzichtig uit de auto en legt die op de grond. 																								
+SCENE_6_9_PLAYER_1	Nu nog gereedschap.																								
+SCENE_6_9_VINCENT_1	Je moet me helpen! Ik verlies te veel bloed.																								
+SCENE_6_9_DESCRIPTION_2	Je schijnt met je zaklamp op VINCENT. Nu zie je dat niet alleen zijn hand maar ook zijn shirt zwart is van het bloed.																								
+SCENE_6_9_PLAYER_2	Shit!																								
+SCENE_6_9_VINCENT_2	Daar is nog een deur. Misschien is daar iets van een verbandtrommel?																								
+SCENE_6_9_DESCRIPTION_3	"VINCENT wijst naar een plek achter de kast. 
+Je schijnt met je zaklamp door de ruimte. Achter de kast met het gereedschap is een donkere plek in de muur. Je loopt erheen. Het is inderdaad een deur. Je probeert de deurklink. De deur gaat open."																								
+0	0	1	2	3																					
+SCENE_6_10_DESCRIPTION_1	"Je schijnt de donkere ruimte in. Het is de ruimte waarin we , in de flashback, de JONGE ARCHEOLOOG aan een bureau zagen zitten.   
+Er is een kastje met gasstelletje erop, een bureau met oude typemachine en achterin staat een viertal leger-stretchers. Tegen een van de muren staat een grote klaptafel geleund. 
+
+Je loopt naar het gasstelletje toe en opent de deurtjes van het kastje eronder. Daar zie je een opgerold papier liggen, iets wat lijkt op een prehistorisch bot; een archeologische vondst en oud blikje sardientjes en een kistje met een rood kruis erop."																								
+SCENE_6_10_CHOICE_1	Ik pak het papier.	1	2	3																					
+SCENE_6_10_CHOICE_2	"Ik pak het bot.	"	1	2	3																					
+SCENE_6_10_CHOICE_3	Ik pak het blik.	1	2	3																					
+SCENE_6_10_CHOICE_4	Ik pak het kistje.	1	2	3																					
+SCENE_6_10_DESCRIPTION_2	Je pakt de rol en rolt deze uit. Het is een poster van de Chordettes. Je rolt het papier weer op en legt het terug. 																								
+SCENE_6_10_DESCRIPTION_3	Je pakt het bot en bekijkt het van dichtbij en legt het daarna weer terug. 																								
+SCENE_6_10_DESCRIPTION_4	Je pakt het blikje en trekt het deksel eraf.																								
+SCENE_6_10_PLAYER_1	"Aaargh?
+Die lucht!"																								
+SCENE_6_10_DESCRIPTION_5	Je legt het blikje weer terug. Je doet de deurtjes weer dicht.																								
+SCENE_6_10_DESCRIPTION_6	Je pakt het kistje en trekt het deksel eraf. Het kistje is leeg.																								
+0	0	1	2	3																					
+SCENE_6_11_DESCRIPTION_1	Op dat moment hoor je ineens het geluid van een slot dat wordt omgedraaid.																								
+SCENE_6_11_PLAYER_1	De deur!																								
+SCENE_6_11_DESCRIPTION_2	"Je rent naar de deur van de kamer en probeert die open te duwen. Hij zit op slot.
+Je hoort VINCENT aan de andere kant van de deur."																								
+SCENE_6_11_VINCENT_1	Sorry, maar ik geloof toch dat ik alleen verder ga.  Jou kan ik niet vertrouwen.																								
+SCENE_6_11_CHOICE_1	"Laat me eruit!	"	1	2	3																					
+SCENE_6_11_CHOICE_2	Jij hebt mij nodig om weg te komen.	1	2	3																					
+SCENE_6_11_CHOICE_3	Maar ik heb verband gevonden!	1	2	3																					
+SCENE_6_11_CHOICE_4	Eva kan hier elk moment zijn en dan pakken we je terug!	1	2	3																					
+SCENE_6_11_VINCENT_2	Bedankt voor de accu en het gereedschap. Vanaf hier red ik het wel zonder jou. 																								
+SCENE_6_11_VINCENT_3	"Voor dat kleine sneetje aan mijn vinger?
+Niet nodig, maar bedankt."																								
+SCENE_6_11_PLAYER_2	Maar je buik dan?																								
+SCENE_6_11_VINCENT_4	Een beetje bloed met water. Bedankt voor de accu en het gereedschap. Vanaf hier red ik het wel zonder jou. 																								
+SCENE_6_11_VINCENT_5	"Doe haar de groeten.
+En bedankt voor de accu en het gereedschap.
+Vanaf hier red ik het wel zonder jou. "																								
+SCENE_6_11_DESCRIPTION_3	Je hoort dat VINCENT de garage verlaat en de deuren achter zich dichttrekt. 																								
+0	0	1	2	3																					
+SCENE_6_12_DESCRIPTION_1	Je bonst met je vuisten op de deur.																								
+SCENE_6_12_PLAYER_1	Vincent!!!! Laat me eruit!																								
+SCENE_6_12_DESCRIPTION_2	Tenslotte laat je je vuisten zakken.																								
+SCENE_6_12_CHOICE_1	"Ik moet de deur forceren.	"	1	2	3																					
+SCENE_6_12_CHOICE_2	Ik moet wachten tot Vincent terugkomt.	1	2	3																					
+SCENE_6_12_CHOICE_3	Ik moet op zoek gaan naar een sleutel.	1	2	3																					
+SCENE_6_12_CHOICE_4	Ik moet een andere uitweg zoeken.	1	2	3																					
+0	0	1	2	3																					
+SCENE_6_13_DESCRIPTION_1	Je loopt naar het bureau. Op het bureau staat een aantal voorwerpen. Een oude, stoffige typemachine, een stapel brieven met een lint eromheen. Aan de muur boven het bureau hangen twee ingelijste foto?s: 1) een oude zwart wit foto van DE JONGE ARCHEOLOOG met zijn vader 2) een foto een gezinnetje.																								
+SCENE_6_13_CHOICE_1	"Ik pak de stapel brieven.	"	1	2	3																					
+SCENE_6_13_CHOICE_2	Ik bekijk foto 1 	1	2	3																					
+SCENE_6_13_CHOICE_3	Ik bekijk foto 2	1	2	3																					
+SCENE_6_13_CHOICE_4	Ik bekijk de typemachine	1	2	3																					
+SCENE_6_13_DESCRIPTION_2	"Je pakt de stapel brieven op en trekt het lint los. De enveloppen zijn beschreven met hetzelfde handschrift en hebben hetzelfde poststempel. Op de achterkant van de enveloppen staat, waar normaal het adres van de afzender staat, alleen een hartje getekend.
+Je opent een brief en bekijkt hem vluchtig.
+
+Liefde,
+
+De weken rijgen zich somber aaneen en worden maanden.
+Ik mis je vreselijk maar gelukkig weet kleine Maddy me steeds aan het lachen te brengen tussen mijn tranen door. Gisteren heeft ze haar eerste stapjes gezet. Dat was zo prachtig en ze was zo trots.
+Ik wou toch dat je het had kunnen zien?  "																								
+SCENE_6_13_DESCRIPTION_3	"Je bekijkt de foto van dichtbij. Je ziet nu de JONGE ARCHEOLOOG met zijn vader voor een kist vol archeologische instrumenten staan bij de koperen theodoliet; het is de foto die we eerder in een Flashback gemaakt zagen worden. Aan de riem van de JONGE ARCHEOLOOG hangt de sleutelbos."																								
+SCENE_6_13_DESCRIPTION_4	"Je bekijkt de foto van dichtbij.
+We zien DE JONGE ARCHEOLOOG zonder hoed en in een keurig pak met een knappe jonge vrouw en een stralende baby.
+Op de foto is hetzelfde hartje getekend als op de afzender van de brieven."																								
+SCENE_6_13_DESCRIPTION_5	"Je bekijkt de typemachine van dichtbij.
+Er zit geen papier in, maar achter de machine ligt een prop papier. Als je die openmaakt, zie je hetzelfde logo als op de brief die je eerder in het seinhuisje hebt gevonden. Er staat slechts een paar regels op het papier.  
+
+Liefde,
+
+Ik mis jou en Maddy ook vreselijk. Ik kan er niet meer tegen hier. Vader begrijpt niet dat ik iets anders wil met mijn leven. Hij kan erg kwaad worden. 
+Ik zou willen dat ik bij jullie kon zijn, maar?"																								
+0	0	1	2	3																					
+SCENE_6_14_DESCRIPTION_1	"Dan zie je ineens iets glinsteren op de grond in het licht van de zaklamp. 
+Je schijnt ermee op de grond en ziet nu een klein glasscherfje liggen naast een prop papier. Als je de prop openmaakt, zie je een foto van drie generaties archeologen. 
+Je pakt het scherfje op en bekijkt het van dichtbij. Dan zie je dat het ontbrekende stukje glas precies de vorm heeft van het gat in jouw amulet.
+Je pakt het amulet en haalt het koordje los. Dan leg je het ontbrekende stukje glas in het midden. Het past precies. Op dat moment wordt het licht van de zaklamp op het amulet weerkaatst naar boven. Daar belicht het de foto van de JONGE ARCHEOLOOG met zijn gezin.
+ 
+Ineens hoor je stemmen van dichtbij. "																								
+SCENE_6_14_CHOICE_1	Hallo, is daar iemand?	1	2	3																					
+SCENE_6_14_CHOICE_2	Vincent, laat me eruit!	1	2	3																					
+SCENE_6_14_CHOICE_3	Help! Ik zit opgesloten!	1	2	3																					
+0	0	1	2	3																					
+SCENE_6_15_DESCRIPTION_1	"Een dor blaadje dat op de grond ligt wordt ineens opgetild door een zuchtje wind.
+Je kijkt om je heen en zoekt met de zaklamp naar een plek waar de tocht vandaan zou kunnen komen. Als je langs de opklaptafel schijnt, zie je een licht weerkaatsen. 
+
+De stemmen worden duidelijker. Je komt dichterbij, en nu zie je dat er achter de tafel een klein raam zit."																								
+SCENE_6_15_PLAYER_1	Hallo!!!																								
+SCENE_6_15_VOICE_1	Hallo! Waar ben je?																								
+SCENE_6_15_DESCRIPTION_2	"Je tilt het tafelblad op en zet het op de grond. Het kleine raam is kapot; het glas is gebroken en het slotje lijkt lam. Je ziet nu buiten twee zoekende lichtbundels. Zodra jij met je lamp naar buiten schijnt, schijnen de lichtbundels in je gezicht."																								
+SCENE_6_15_CHOICE_1	Wie zijn jullie?	1	2	3																					
+SCENE_6_15_CHOICE_2	Help me hieruit!	1	2	3																					
+SCENE_6_15_VOICE_2	"Klim eruit!
+Wij helpen je wel."																								
+0	0	1	2	3																					
+SCENE_6_16_DESCRIPTION_1	Je pakt de typemachine.																								
+SCENE_6_16_PLAYER_1	Kijk uit, hier kom ik!																								
+SCENE_6_16_DESCRIPTION_2	Je gooit de typemachine door het raampje.																								
+SCENE_6_16_VOICE_1	AArgh?.																								
+0	0	1	2	3																					
+SCENE_6_17_DESCRIPTION_1	Je klimt snel naar buiten. MARK ligt op de grond te kermen van de pijn. Hij houdt met beide handen zijn been vast. EVA zit naast hem gehurkt. 																								
+SCENE_6_17_PLAYER_1	Shit!																								
+SCENE_6_17_EVA_1	Dat ziet er niet goed uit?																								
+SCENE_6_17_CHOICE_1	Wat is er gebeurd?	1	2	3																					
+SCENE_6_17_CHOICE_2	Wat heeft hij gedaan?	1	2	3																					
+SCENE_6_17_CHOICE_3	Heb ik dat gedaan?	1	2	3																					
+SCENE_6_17_EVA_2	"We kwamen je zoeken. We zagen zaklamp flitsen op de helling en zijn naar je toe gekomen om je te helpen.	
+En toen gooide jij een typemachine op zijn voet."																								
+SCENE_6_17_PLAYER_2	Dit was niet de bedoeling!																								
+0	0	1	2	3																					
+SCENE_6_18_DESCRIPTION_1	MARK probeert, met EVA?s hulp, overeind te komen maar zakt dan weer in elkaar.																								
+SCENE_6_18_MARK_1	Aaaah. Het gaat wel hoor. Ik denk alleen niet dat ik kan lopen?																								
+SCENE_6_18_CHOICE_1	Wat kan ik doen?	1	2	3																					
+SCENE_6_18_CHOICE_2	Wat heb ik gedaan??	1	2	3																					
+SCENE_6_18_CHOICE_3	Laat mij eens kijken.	1	2	3																					
+SCENE_6_18_CHOICE_4	Eva, doe iets!	1	2	3																					
+0	0	1	2	3																					
+SCENE_6_19_DESCRIPTION_1	"Een stevige wind waait om je heen. De boomtoppen ruisen en zwaaien in de wind. Dit dreigt een storm te gaan worden!
+Op dat moment horen jullie ineens voetstappen die dichterbij komen. "																								
+SCENE_6_19_EVA_1	Wie is daar?																								
+SCENE_6_19_DESCRIPTION_2	Jullie richten alle drie je zaklamp op een bosje. VINCENT komt uit de bosjes tevoorschijn. Hij kijkt ernstig.																								
+SCENE_6_19_VINCENT_1	"Ik ben teruggekomen om je vrij te laten maar zo te zien heb je al hulp gekregen van deze types.
+Weer een bewijs dat je niet te vertrouwen bent."																								
+SCENE_6_19_EVA_2	"Niet te vertrouwen?
+Jij bent degene die hier mensen opsluit. 
+Wat voor gestoorde gek ben jij?"																								
+SCENE_6_19_VINCENT_2	Ik werd aangevallen. Wat moest ik dan doen?																								
+SCENE_6_19_DESCRIPTION_3	VINCENT laat zijn bebloede hand zien.																								
+SCENE_6_19_EVA_3	Tuurlijk?																								
+SCENE_6_19_VINCENT_3	Weet je wat? laat maar. Ik zorg wel voor mezelf?																								
+SCENE_6_19_MARK_1	"Stop allemaal! 
+We moeten zorgen dat we zo snel mogelijk van dit eiland afkomen. Dit lijkt het begin van een orkaan."																								
+SCENE_6_19_DESCRIPTION_4	"De storm neemt in heftigheid snel toe. Boomtoppen waaien vervaarlijk heen en weer. Angstaanjagend meeuwengekrijs. Dikke regendruppels vallen op de grond. 
+MARK probeert weer overeind te komen."																								
+SCENE_6_19_MARK_2	Aaargh?.																								
+SCENE_6_19_PLAYER_1	Volgens mij heeft Mark ons nodig.																								
+SCENE_6_19_DESCRIPTION_5	VINCENT hurkt bij MARK neer en bekijkt diens enkel.																								
+SCENE_6_19_VINCENT_4	Je hebt gelijk. We moeten hier samen weg zien te komen. Kom mee allemaal. We gaan die zendmast repareren.																								
+SCENE_6_19_EVA_4	Wat vind jij? Kunnen we Vincent vertrouwen?																								
+SCENE_6_19_CHOICE_1	Vincent heeft gelijk.	1	2	3																					
+SCENE_6_19_CHOICE_2	Vertrouw hem niet.	1	2	3																					
+SCENE_6_19_VINCENT_5	We hebben elkaar nodig. Alleen als we elkaar helpen komen we hier weg.																								
+SCENE_6_19_MARK_3	Aargh?.																								
+SCENE_6_19_VINCENT_6	We hebben een accu gevonden en er is gereedschap. Als we samenwerken moet dit lukken.																								
+0	0	1	2	3																					
+SCENE_6_20_VINCENT_1	Ik kan Mark op mijn rug dragen.																								
+SCENE_6_20_EVA_1	Laten we gaan.																								
+SCENE_6_20_DESCRIPTION_1	VINCENT tilt MARK op zijn schouders.																								
+SCENE_6_20_VINCENT_2	We moeten over het bergpad dus wees voorzichtig.																								
+SCENE_6_20_CHOICE_1	Laten we de storm afwachten.	1	2	3																					
+SCENE_6_20_CHOICE_2	Laten we een andere route naar boven zoeken.	1	2	3																					
+SCENE_6_20_CHOICE_3	Laten we het gewoon proberen.	1	2	3																					
+SCENE_6_20_EVA_2	We proberen het gewoon!																								
+SCENE_6_20_DESCRIPTION_2	EVA loopt voorop. Daarna VINCENT met de kermende MARK op zijn rug. Jij volgt als laatste.																								
+0	0	1	2	3																					
+SCENE_6_21_DESCRIPTION_1	"We zien de JONGE ARCHEOLOOG weer achter zijn bureau in zwart/ wit/ sepia. Op het bureau staat een lantaarn. Het is nacht en het regent. De JONGE ARCHEOLOOG maakt een brief open met op de achterkant een hartje getekend.
+Terwijl hij de brief leest wellen tranen op in zijn ogen. Op het bureau voor hem ligt de foto van de drie generaties archeologen. 
+In zijn verdriet maakt hij van die foto een prop en gooit hem weg. Daarbij valt het vergrootglas kapot op de grond. Hij staart naar het gebroken glas op de grond. Het vergrootglas is uit zijn handvat gevallen en gebroken. Er zit een barst in en er is een stukje uit het midden gevallen. 
+Maanlicht valt op het glas en het schijnsel en weerkaatst precies op de foto van die aan de muur hangt. Het licht belicht de vrouw en de baby. Zijn eigen beeld op de foto valt weg in de schaduw.
+Hij pakt het beschadigde vergrootglas van de grond en draait ermee totdat het maanlicht ook zijn gezicht op de foto belicht. Dan neemt hij een besluit. Hij sluit zijn vingers om het instrument. Dan komt hij overeind, trekt een vel papier uit de typemachine, grijpt zijn jas van de stoel en verlaat de ruimte rennend. We zien op de grond nog de scherf van het kapotte vergrootglas en de prop liggen."																								
+0	0	1	2	3																					
+SCENE_7_1_DESCRIPTION_1	"Je loopt achter EVA en VINCENT met MARK aan omhoog. De storm komt nu tot een climax en zware slagregens slaan op het pad voor je. 
+Boomtoppen waaien vervaarlijk heen en weer en op het steile modderige pad is haast niet meer zichtbaar. De regen waas is zo heftig dat je alleen nog het silhouet ziet van VINCENT met MARK op zijn rug."																								
+SCENE_7_1_VINCENT_1	Kijk uit! Het is hier heel erg glad!!																								
+SCENE_7_1_DESCRIPTION_2	"Je loopt voorzichtig als ineens het pad voor je wegspoelt. De regen neemt een grote hap uit het pad en spoelt de modder langs de bergwand naar beneden.
+Ineens glijdt ook de grond onder jouw voeten weg en val je, met je voeten vooruit steil naar beneden. Takken zwiepen in je gezicht. Het licht van je zaklamp schiet alle kanten op en laat een steeds psychedelischer setting zien van groene vlekken en lichtflitsen. "																								
+SCENE_7_1_DESCRIPTION_3	Kleuren en beelden vloeien in elkaar over en het is niet meer duidelijk wat echt is en wat gedroomd. Je ziet naast kleuren nu ook  flitsen uit MINI FLASH BACK 1 en MINI FLASH BACK 2:																								
+0	0	1	2	3																					
+SCENE_7_2_DESCRIPTION_1	We zien de OUDE ARCHEOLOOG door het raampje van het seinhuis bij de krater. De JONGE ARCHEOLOOG komt binnen. Hij praat tegen zijn vader en wil hem het vergrootglas teruggeven. De vader weigert en wordt kwaad. Zoon begint te schreeuwen. De twee hebben een heftige ruzie. 																								
+0	0	1	2	3																					
+SCENE_7_3_DESCRIPTION_1	We zien de JONGE ARCHEOLOOG uit het hoofdkwartier stormen. Hij heeft zijn jas aan en de opzegbrief in zijn hand. Hij trekt de deur achter zich in het slot en kijkt een moment twijfelend naar de sleutelbos en het beschadigde vergrootglas in zijn hand. Zijn ogen vol tranen.																								
+0	0	1	2	3																					
+SCENE_7_4_DESCRIPTION_1	Je komt ineens tot stilstand. 																								
+SCENE_7_4_PLAYER_1	Au!																								
+SCENE_7_4_DESCRIPTION_2	Je kijkt om je heen. De regen waas neemt af in sterkte.																								
+SCENE_7_4_PLAYER_2	Eva! Mark!																								
+SCENE_7_4_VINCENT_1	Waar ben ik??																								
+SCENE_7_4_DESCRIPTION_3	Je probeert overeind te komen, maar het beeld draait voor je ogen. Je laat je achterover in het gras vallen. Je kijkt naar de zwiepende bomen boven je. De donkere regenwolken trekken voorbij en sterren worden zichtbaar aan de donkere hemel. Sommige sterren zijn feller dan anderen. Het lijkt alsof de sterren een patroon vormen met een clue welke richting je op moet gaan. Hier ontvouwt zich: 																								
+SCENE_7_4_DESCRIPTION_4	LOGICA GAME 9																								
+0	0	1	2	3																					
+SCENE_7_5_DESCRIPTION_1	Verschillende kleuren en beelden draaien voor je. In je psychedelische trip zie je ineens het gezicht van de OUDE MAN voor je/ in glitches afgewisseld door het gezicht van VINCENT. Hij praat tegen je en zegt steeds hetzelfde alsof het een kapotte video betreft.																								
+SCENE_7_5_OLDMAN_VINCENT_1	"Angst is een vorm van wijsheid.
+Angst is een vorm van wijsheid.
+Angst is een vorm van wijsheid."																								
+SCENE_7_5_CHOICE_1	Ga weg!	1	2	3																					
+SCENE_7_5_CHOICE_2	Wie ben jij?	1	2	3																					
+SCENE_7_5_CHOICE_3	Help me!	1	2	3																					
+SCENE_7_5_CHOICE_4	Laat me met rust.	1	2	3																					
+0	0	1	2	3																					
+SCENE_7_6_OLDMAN_1	De vraag is... wat wil je?																								
+SCENE_7_6_CHOICE_1	Ik wil uit deze trip.	1	2	3																					
+SCENE_7_6_CHOICE_2	Ik wil naar huis.	1	2	3																					
+SCENE_7_6_CHOICE_3	Ik wil naar Eva.	1	2	3																					
+SCENE_7_6_CHOICE_4	Ik wil naar Vincent.	1	2	3																					
+0	0	1	2	3																					
+SCENE_7_7_OLDMAN_VINCENT_1	Het amulet?																								
+SCENE_7_7_DESCRIPTION_1	Je grijpt het amulet. In het licht van je zaklamp lijkt de hanger licht te geven. Een wonderlijke straal licht schijnt vanuit het amulet in het rond. Dan verdwijnt het licht weer en lijk je weer normaal rond te kunnen kijken.																								
+SCENE_7_7_OLDMAN_VINCENT_2	Volg me?																								
+SCENE_7_7_DESCRIPTION_2	"Je probeert overeind te komen. Het lukt. Je houdt je zaklamp voor je. Dan zwakt het licht van de zaklamp af. De batterij is bijna leeg.
+Intussen wordt het licht van de maan steeds krachtiger. De wind en de blauwe waas van het maanlicht geven een dromerig, psychedelische sfeer aan de setting. Dan valt de zaklamp helemaal uit.
+In de blauwe waas zie je de OUDE MAN voor je uit lopen."																								
+SCENE_7_7_CHOICE_1	Waar ga je heen?	1	2	3																					
+SCENE_7_7_CHOICE_2	Wacht op mij!	1	2	3																					
+SCENE_7_7_CHOICE_3	Hoor jij bij de groep?	1	2	3																					
+SCENE_7_7_CHOICE_4	Help me!	1	2	3																					
+0	0	1	2	3																					
+SCENE_7_8_DESCRIPTION_1	Je baant je een weg door de struiken. Dan kom je ineens op een soort open strook. Dit is een overwoekerde en overgroeide landingsbaan. Op de landingsbaan staat een schim van een propellervliegtuigje, zoals te zien was in flashback 1. Van de OUDE MAN is geen spoor meer.																								
+SCENE_7_8_CHOICE_1	Nu kan ik hier weg!	1	2	3																					
+SCENE_7_8_CHOICE_2	Vincent mag dit nooit vinden!	1	2	3																					
+SCENE_7_8_CHOICE_3	Nu kan ik hier met Eva en de basis kampers weg!	1	2	3																					
+0	0	1	2	3																					
+SCENE_7_9_DESCRIPTION_1	Je loopt naar het vliegtuigje toe. 																								
+SCENE_7_9_CHOICE_1	Misschien krijg ik hem aan de praat.	1	2	3																					
+SCENE_7_9_CHOICE_2	Ik moet me verstoppen.	1	2	3																					
+SCENE_7_9_CHOICE_3	Misschien vind ik iets van waarde.	1	2	3																					
+SCENE_7_9_CHOICE_4	Misschien is er een radio.	1	2	3																					
+SCENE_7_9_DESCRIPTION_2	Je klimt aan boord. Het ding is oud en kapot. Er zitten grote gaten in, hij is vol roest en overgroeid door allerlei planten. De deur van de cockpit is weg. Bij de ingang van de cockpit zit op de vloer een luik.																								
+0	0	1	2	3																					
+SCENE_7_10_CHOICE_1	"Ik bekijk de passagiersruimte	"	1	2	3																					
+SCENE_7_10_CHOICE_2	"Ik bekijk het luik		"	1	2	3																					
+SCENE_7_10_CHOICE_3	Ik bekijk de cockpit	1	2	3																					
+SCENE_7_10_DESCRIPTION_1	Je bekijkt de passagiersruimte van het vliegtuigje van dichtbij. Je ziet schimmen van een aftands, volledig doorgeroest vliegtuiginterieur. Er staan vliegtuigstoelen.																								
+SCENE_7_10_DESCRIPTION_2	Je bekijkt het luik van dichtbij. Je maakt het open. In het luik zie je een kist liggen met het logo van de overheidsinstelling. 																								
+SCENE_7_10_DESCRIPTION_3	Je bekijkt de cockpit van het vliegtuigje van dichtbij. Er knippert een lichtje op het dashboard.																								
+0	0	1	2	3																					
+SCENE_7_11_DESCRIPTION_1	Je klimt aan boord van de cockpit. Het is donker. De cockpit beschikt over een heleboel radertjes, schermpjes, handels etc. Je gaat proberen het vliegtuig aan de praat te krijgen.																								
+SCENE_7_11_DESCRIPTION_2	LOGICA GAME 10																								
+0	0	1	2	3																					
+SCENE_7_12_DESCRIPTION_1	Als je achterom kijkt, zie je ineens vage lichten verschijnen in het gangpad. De lichten worden steeds feller. Het lijkt noodverlichting te zijn zoals in een modern passagierstoestel.																								
+SCENE_7_12_PLAYER_1	He? Hoe? hoe kan dit? Wat? huh?																								
+SCENE_7_12_DESCRIPTION_2	"Terwijl de lichten sterker worden, wordt het interieur van het vliegtuig steeds duidelijker. De vliegtuigstoelen worden duidelijker. Nu lijkt het vliegtuig van binnen een stuk langer en er zijn veel meer stoelen; deze afmetingen kloppen niet bij wat je vanaf de buitenkant hebt gezien. Vanbinnen heeft dit vliegtuig het formaat van een modern passagierstoestel.
+Terwijl je door het vliegtuig tuurt zie je ineens iets wat op een menselijke schim lijkt."																								
+SCENE_7_12_CHOICE_1	Dat is de oude man.	1	2	3																					
+SCENE_7_12_CHOICE_2	Dat is Mark.	1	2	3																					
+SCENE_7_12_CHOICE_3	Dat is Vincent.	1	2	3																					
+SCENE_7_12_CHOICE_4	Dat is Eva.	1	2	3																					
+0	0	1	2	3																					
+SCENE_7_13_DESCRIPTION_1	Je loopt erheen. Op SEAT 37 D zit de JONGE ARCHEOLOOG. Hij is alleen en kijkt je afwachtend aan.																								
+SCENE_7_13_YOUNGARCHEOLOGIST_1	Je hebt het gered.																								
+SCENE_7_13_DESCRIPTION_2	De JONGE ARCHEOLOOG kijkt je vriendelijk aan.																								
+SCENE_7_13_YOUNGARCHEOLOGIST_2	Ga zitten en geniet van de reis.																								
+SCENE_7_13_PLAYER_1	Ik begrijp er niets van.																								
+SCENE_7_13_YOUNGARCHEOLOGIST_3	Het is niet vaak zo dat je een tweede kans krijgt in het leven. Een kans om bepaalde keuzes opnieuw te maken.																								
+SCENE_7_13_CHOICE_1	Ik wil een heleboel keuzes opnieuw maken.	1	2	3																					
+SCENE_7_13_CHOICE_2	Ik sta achter al mijn keuzes.	1	2	3																					
+SCENE_7_13_CHOICE_3	Ik wil misschien een keuze opnieuw maken.	1	2	3																					
+0	0	1	2	3																					
+SCENE_7_14_DESCRIPTION_1	De JONGE ARCHEOLOOG wijst naar de plek aan de andere kant van het gangpad.																								
+SCENE_7_14_YOUNGARCHEOLOGIST_1	Je ziet eruit alsof je wel wat rust kunt gebruiken.																								
+SCENE_7_14_DESCRIPTION_2	Je gaat zitten op de stoel aan de andere kant van het gangpad. 																								
+SCENE_7_14_YOUNGARCHEOLOGIST_2	En waar gaat de reis precies naartoe?																								
+SCENE_7_14_PLAYER_1	Ik weet het niet?																								
+SCENE_7_14_YOUNGARCHEOLOGIST_3	Heb je mijn amulet niet gekregen?																								
+SCENE_7_14_DESCRIPTION_3	"Je zoekt, maar kunt het niet vinden. Dan zie je dat het amulet voor je op de grond ligt. Je raapt het op en houdt het voor je. Het amulet bungelt aan zijn koordje.
+Op dat moment valt er van opzij een fel licht op het amulet. Nu worden ineens letters zichtbaar. Iemand heeft op onhandige wijze een tekst in het glas gekerfd. Er staat ?bepaal je eigen richting?. Wanneer je het amulet weer laat zakken, bevind je je weer in het drukke moderne vliegtuig uit scene 1. "																								
+																									
+SCENE_7_15_DESCRIPTION_1	"Zonlicht, geroezemoes, een jengelende baby. Naast je zit een lelijke, dikke man. Hij zweet en hangt snurkend in zijn stoel. 
+"																								
+SCENE_7_15_PLAYER_1	Wat?? Hoe kan dit? Wat is er gebeurd?																								
+SCENE_7_15_DESCRIPTION_2	Je kijkt om je heen. EVA staat in het gangpad. Ze is bezig met andere mensen.																								
+SCENE_7_15_PLAYER_2	Eva! Wat is er gebeurd? Iedereen was dood! We waren neergestort!																								
+SCENE_7_15_EVA_1	"Sorry, u bent in slaap gevallen.
+Ik kom zo bij u voor het formulier."																								
+SCENE_7_15_DESCRIPTION_3	Je kijkt naast je. Aan de andere kant van het gangpad zit, op SEAT 37 D, de OUDE MAN. Hij is verwikkeld in een grappig gesprek met een oude vrouw naast hem. Hij kust haar. Naast haar zie je nu ook een jonge vrouw zitten. Ze lijkt op de JONGE ARCHEOLOOG.																								
+SCENE_7_15_DESCRIPTION_4	"In je hand heb je nog altijd het amulet. 
+De OUDE MAN lacht even en draait zich dan weer terug naar zijn gezin. Aan het eind van het gangpad zie je VINCENT, die champagne drinkt met knappe dames.
+
+Op dat moment komt EVA met haar trolley door het gangpad aangelopen. Ze ziet er weer uit als de keurige stewardess uit scene 1. "																								
+SCENE_7_15_EVA_2	"Gaat het weer een beetje?
+U had een nogal heftige droom, zo leek het."																								
+SCENE_7_15_CHOICE_1	een heerlijke droom	1	2	3																					
+SCENE_7_15_CHOICE_2	een nachtmerrie 	1	2	3																					
+																									
+SCENE_7_16_EVA_1	Heeft u het formulier al ingevuld?																								
+SCENE_7_16_DESCRIPTION_1	"Het tafeltje van je stoel is uitgeklapt. Er liggen nog wat bakjes, een bekertje half gevuld met koffie en een leeg zakje nootjes. Bovenop een vliegtuig magazine, waarop drie plaatjes te zien zijn van; een jaren ?50 pick up jeepje, de Chordettes en een oud familiekiekje van wat lijkt drie generaties archeologen. Tussen de troep ligt een formulier en een pen. Je naam, geslacht, leeftijd en beroep zijn al ingevuld. De laatste regel is nog leeg: Doel van de reis?."																								
+SCENE_7_16_CHOICE_1	een zonnige strandvakantie	1	2	3																					
+SCENE_7_16_CHOICE_2	een sollicitatie in New York  	1	2	3																					
+SCENE_7_16_CHOICE_3	familiebezoek	1	2	3																					
+SCENE_7_16_CHOICE_4	terug naar huis	1	2	3																					
+																									
+SCENE_7_17_DESCRIPTION_1	EINDE																								
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									

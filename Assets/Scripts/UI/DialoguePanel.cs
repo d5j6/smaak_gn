@@ -6,7 +6,7 @@ using System.Linq;
 using NodeCanvas.DialogueTrees;
 
 //Based upon the example "DialogueUGUI"
-//Will rewrite this at some point, as I do not agree with some of this code.
+//Will rewrite this at some point as the project increases scope.
 public class DialoguePanel : MonoBehaviour
 {
     [System.Serializable]
@@ -244,13 +244,12 @@ public class DialoguePanel : MonoBehaviour
                 yield return null;
             }
             m_WaitInputIndicator.gameObject.SetActive(false);
+            m_CanContinue = false;
         }
 
         yield return null;
         m_SubtitlesGroup.gameObject.SetActive(false);
         info.Continue();
-
-        m_CanContinue = false;
     }
 
     private IEnumerator CheckInput(System.Action action)
